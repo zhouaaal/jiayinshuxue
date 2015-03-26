@@ -11,8 +11,11 @@
 <title>在日华人信息</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
 <link href="stylesheets/iscroll.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+</style>
 </head>
-<body class="allbg">
+<body class="allbg" bgcolor="#f5f0ec">
 
 <div class="banner">
 	<div id="wrapper">
@@ -31,11 +34,24 @@
 	
     <div class="join-top"><div class="jointitle">请如实填写报名信息:</div></div>
     <form action="/" method="post" class="join-mid">
-		  <div class="join-input"><input type='text' name='name' id='name' placeholder="+ 姓名" class="inputbox"/></div>
-		  <div class="join-input inputbg1"><input type='text' name='phone' id='phone' placeholder="+ 手机号" class="inputbox"/></div>
-		  <div class="join-input inputbg3"><input type='text' name='weixin' id='weixin' placeholder="+ 微信号" class="inputbox"/></div>
-		  <div class="join-input inputbg4"><input type='text' name='study' id='study' placeholder="+ 在留资格" class="inputbox"/></div>
-		  <div><input type='submit' value='提 交' class="join-btn"/></div>
+		  <div class="add-text"><p>姓名</p></div>
+          <div class="join-input"><input type='text' name='name' id='name'  class="inputbox"/></div>
+          <div class="add-text"><p>手机号</p></div>
+		  <div class="join-input inputbg1"><input type='text' name='phone' id='phone'  class="inputbox"/></div>
+          <div class="add-text"><p>微信号</p></div>
+		  <div class="join-input inputbg3"><input type='text' name='weixin' id='weixin'  class="inputbox"/></div>
+          <div class="add-text"><p>在留资格</p></div>
+		  <div class="join-input inputbg4"><input type='text' name='study' id='study' placeholder="留学、就职//永驻..." class="inputbox"/></div>
+          <div class="add-text"><p>有无驾照</p></div>
+		  <div class="join-input-radio"><input type='radio' name='driver' id='driver'  class="join-radio2" value="有"/><span class="join-radio3">有</span></div>
+          <div class="join-input-radio"><input type='radio' name='driver' id='driver'  class="join-radio2" value="无"/><span class="join-radio3">无</span></div>
+          <div class="add-text"><p>有无汽车 (租借的汽车也可)</p></div>
+		  <div class="join-input-radio"><input type='radio' name='car' id='driver'  class="join-radio2" value="有"/><span class="join-radio3">有</span></div>
+          <div class="join-input-radio"><input type='radio' name='car' id='driver'  class="join-radio2" value="无"/><span class="join-radio3">无</span></div>
+          <div class="add-text"><p>应聘职位</p></div>
+		  <div class="join-input-radio"><input type='radio' name='position' id='driver'  class="join-radio2" value="有"/><span class="join-radio3">有</span></div>
+          <div class="join-input-radio"><input type='radio' name='position' id='driver'  class="join-radio2" value="无"/><span class="join-radio3">无</span></div>
+		  <div><input type='submit' value='提 交' class="join-btn2"/></div>
 		</form>
 </div>
 
