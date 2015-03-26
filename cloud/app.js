@@ -73,7 +73,11 @@ app.get('/query',function(req,res){
 	var name=req.query.name;
 	var phone=req.query.phone;
 	var weixin=req.query.weixin;
-	renderQuery(res,name,phone,weixin);
+	var study=req.quert.study;
+	var licence=req.quert.licence;
+	var car=req.quert.car;
+	var position=req.quert.position;
+	renderQuery(res,name,phone,weixin,study,licence,car,position);
 });
 
 app.get('/', function(req, res){
@@ -91,15 +95,23 @@ app.post('/',function(req, res){
 	var name = req.body.name;
 	var phone=req.body.phone;
 	var weixin=req.body.weixin;
+	var study=req.body.study;
+	var licence=req.body.licence;
+	var car=req.body.car;
+	var position=req.body.position;
 	if(name && name.trim() !=''){
 		//Save visitor
 		var visitor = new Visitor();
 		visitor.set('name', name);
 		visitor.set('phone', phone);
 		visitor.set('weixin', weixin);
+		visitor.set('study',study);
+		visitor.set('licence',licence);
+		visitor.set('car',car);
+		visitor.set('position',position);
 		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,name,phone,weixin);
+				renderSuccess(res,name,phone,weixin,study,licence,car,position);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
