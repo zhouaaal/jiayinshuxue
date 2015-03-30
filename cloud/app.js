@@ -69,18 +69,14 @@ function renderSuccess(res,name,phone,weixin){
 	});
 }
 
-app.get('/query',function(req,res){
-	var name=req.query.name;
-	var phone=req.query.phone;
-	var weixin=req.query.weixin;
-	var study=req.quert.study;
-	var licence=req.quert.licence;
-	var car=req.quert.car;
-	var position=req.quert.position;
-	renderQuery(res,name,phone,weixin,study,licence,car,position);
+app.get('/index',function(req,res){
+	var votename=req.query.votename;
+	var votenum=req.query.votenum;
+	var votetotal=req.query.votetotal;
+	renderQuery(res,votename,votenum,votetotal);
 });
 
-app.get('/', function(req, res){
+app.get('/query', function(req, res){
 	var name = req.query.name;
 	if(!name)
 		name = 'AVOS Cloud';
@@ -95,23 +91,23 @@ app.post('/',function(req, res){
 	var name = req.body.name;
 	var phone=req.body.phone;
 	var weixin=req.body.weixin;
-	var study=req.body.study;
-	var licence=req.body.licence;
-	var car=req.body.car;
-	var position=req.body.position;
+	var studyStatus=req.body.study;
+	var license=req.body.license;
+	var haveCar=req.body.haveCar;
+	var fulltime=req.body.fulltime;
 	if(name && name.trim() !=''){
 		//Save visitor
 		var visitor = new Visitor();
 		visitor.set('name', name);
 		visitor.set('phone', phone);
 		visitor.set('weixin', weixin);
-		visitor.set('study',study);
-		visitor.set('licence',licence);
-		visitor.set('car',car);
-		visitor.set('position',position);
+		visitor.set('studyStatus', studyStatus);
+		visitor.set('license', license);
+		visitor.set('haveCar', haveCar);
+		visitor.set('fulltime', fulltime);
 		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,name,phone,weixin,study,licence,car,position);
+				renderSuccess(res,name,phone,weixin);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
