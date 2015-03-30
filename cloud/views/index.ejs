@@ -982,7 +982,19 @@ function fyshow_openmenu(at_num) {
             <ul class="pic">
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1787711_809746fbad42e31c9270zNG7Dy9eel77.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="342" width="258">
                 </li>				
-    
+                <li class="p">
+                <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>                              
+                <% if (vote){ %>
+		<%  vote.forEach(function (vote){ %>
+		<li>
+		  <span class="fr">  <%= vote.get('votename') %> </span>
+		  <span class="fl">  <%= vote.get('votenum') %> </span>
+          <span class="fr"><em class="red"><%= vote.get('votetotal') %></em>票</span>
+           <span class="fl bgn">人气值</span>
+		  
+		</li>
+		<% })
+		   } %>
 
             </ul>
 
