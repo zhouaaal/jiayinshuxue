@@ -77,16 +77,11 @@ app.get('/query',function(req,res){
 });
 
 app.get('/', function(req, res){
-	var votename = req.query.votename;
-	var votenum = req.query.votenum;
-	var votetotal = req.query.votetotal;
-	if(!votename)
-		votename = 'AVOS Cloud';
-	renderIndex(res, votename);
+
 });
 
 app.get('/vote',function(req,res){
-	res.redirect('/');		
+			
 });
 
 app.post('/',function(req, res){
