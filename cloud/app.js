@@ -20,7 +20,7 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var Visitor = AV.Object.extend('Visitor');
+var Visitor = AV.Object.extend('visitor');
 function renderIndex(res, name){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
@@ -38,7 +38,7 @@ function renderIndex(res, name){
 }
 
 function renderQuery(res,name,phone,weixin){
-	var query = new AV.Query(Visitor);
+	var query = new AV.Query(visitor);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
