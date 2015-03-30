@@ -24,11 +24,11 @@ var vote = AV.Object.extend('vote');
 function renderIndex(res, name){
 	var query = new AV.Query(vote);
 	query.skip(0);
-	query.limit(10);
+	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ votaname: votaname, votes: results});
+			res.render('index',{ votename: votename, votenum: votenum, votetotal: votetotal, votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -40,7 +40,7 @@ function renderIndex(res, name){
 function renderQuery(res,votename,votenum,votetotal){
 	var query = new AV.Query(vote);
 	query.skip(0);
-	query.limit(10);
+	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
@@ -56,7 +56,7 @@ function renderQuery(res,votename,votenum,votetotal){
 function renderSuccess(res,votename,votenum,votetotal){
 	var query = new AV.Query(vote);
 	query.skip(0);
-	query.limit(10);
+	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
@@ -77,7 +77,10 @@ app.get('/query',function(req,res){
 });
 
 app.get('/', function(req, res){
-
+	var name = req.query.votename;
+	if(!votename)
+		votename = 'AVOS Cloud';
+	renderIndex(res, votename);
 });
 
 app.get('/vote',function(req,res){
@@ -85,12 +88,16 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var votename = req.body.votename;
-	var votenum = req.body.votenum;
-	var votetotal = req.body.votetotal;
+	var votename = req.body.name;
+	var votenum=req.body.votenum;
+	var votetotal=req.body.votetotal;
+	var studyStatus=req.body.study;
+	var license=req.body.license;
+	var haveCar=req.body.haveCar;
+	var fulltime=req.body.fulltime;
 	if(name && name.trim() !=''){
 		//Save visitor
-		var vote = new Vote();
+		var vote = new vote();
 		vote.set('votename', votename);
 		vote.set('votenum', votenum);
 		vote.set('votetotal', votetotal);
