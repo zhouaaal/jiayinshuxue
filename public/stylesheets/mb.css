@@ -1,4 +1,4 @@
-body{ background: url(../vote_files/bg.jpg);}
+body{ background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg.jpg);}
 a{ text-decoration: none;}
 .clearfix:after {content: " ";clear: both;display: block;height: 0;visibility: hidden; }
 
@@ -17,7 +17,7 @@ em.red{color: #ff3300;}
 .contain{  width:894px; margin: 0 auto;overflow: hidden;}
 .m_head{ width:980px; margin: 0 auto 15px auto; overflow: hidden;}
 .m_head img{ display: block; float: left;}
-.m_head .menu{ width:377px; padding:0 315px 0 288px; float: left;  background: url(../vote_files/index_05.jpg) 0 0 no-repeat; height: 57px; overflow: hidden; display: block;  }
+.m_head .menu{ width:377px; padding:0 315px 0 288px; float: left;  background: url(http://7xic0d.com1.z0.glb.clouddn.com/index_05.jpg) 0 0 no-repeat; height: 57px; overflow: hidden; display: block;  }
 .m_head .menu a{line-height: 0; height:0; padding: 28px 0;font-size:0;float: left;margin-top: 5px;}
 .m_head .menu a:hover{margin-top:7px;}
 .m_head .menu a:active{margin-top:5px;}
@@ -32,11 +32,11 @@ em.red{color: #ff3300;}
 
 
 div.intro { width:844px; margin:0 auto; background: #FFFFFF;border-radius: 10px; overflow: hidden; padding:0 25px 25px 25px;}
-div.intro h3{ text-align: center; color: #FFFFFF; background: url(../vote_files/bg_tt.png) center 0 no-repeat;  line-height: 44px;  overflow: hidden; font-size: 28px;margin:0; font-family: "Microsoft YaHei";  font-weight: normal; padding-bottom: 20px;}
-div.intro h4{ color: #FFFFFF; background: url(../vote_files/bg_jx.png) 0 0 no-repeat;  line-height: 53px; margin:10px 0;  overflow: hidden; font-size: 30px;padding:0px 0 0 56px; font-family: "microsoft yahei"; font-weight: normal;}
-div.intro h4.bg_blue{background: url(../vote_files/bg_jx.png) 0 -69px no-repeat; }
-div.intro h4.bg_green{background: url(../vote_files/bg_jx.png) 0 -140px no-repeat;  }
-div.intro h4.bg_purple{background: url(../vote_files/bg_jx.png) 0 -210px no-repeat; }
+div.intro h3{ text-align: center; color: #FFFFFF; background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_tt.png) center 0 no-repeat;  line-height: 44px;  overflow: hidden; font-size: 28px;margin:0; font-family: "Microsoft YaHei";  font-weight: normal; padding-bottom: 20px;}
+div.intro h4{ color: #FFFFFF; background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 0 no-repeat;  line-height: 53px; margin:10px 0;  overflow: hidden; font-size: 30px;padding:0px 0 0 56px; font-family: "microsoft yahei"; font-weight: normal;}
+div.intro h4.bg_blue{background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 -69px no-repeat; }
+div.intro h4.bg_green{background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 -140px no-repeat;  }
+div.intro h4.bg_purple{background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 -210px no-repeat; }
 div.intro li{ line-height: 30px; overflow: hidden; padding: 5px 0; font-size: 16px; font-family: "microsoft yahei";color:#333333  }
 div.intro ul{ overflow: hidden; padding:10px 20px;}
 div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-family: "microsoft yahei";color:#333333  }
