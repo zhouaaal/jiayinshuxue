@@ -20,9 +20,9 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var Vote = AV.Object.extend('Vote');
+var vote = AV.Object.extend('vote');
 function renderIndex(res, name){
-	var query = new AV.Query(Vote);
+	var query = new AV.Query(vote);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
@@ -38,7 +38,7 @@ function renderIndex(res, name){
 }
 
 function renderQuery(res,votename,votenum,votetotal){
-	var query = new AV.Query(Vote);
+	var query = new AV.Query(vote);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
@@ -54,7 +54,7 @@ function renderQuery(res,votename,votenum,votetotal){
 }
 
 function renderSuccess(res,votename,votenum,votetotal){
-	var query = new AV.Query(Vote);
+	var query = new AV.Query(vote);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
