@@ -20,15 +20,15 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var vote = AV.Object.extend('vote');
+var Visitor = AV.Object.extend('Visitor');
 function renderIndex(res, name){
-	var query = new AV.Query(vote);
+	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ name: name, votes: results});
+			res.render('index',{ name: name, visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -37,14 +37,14 @@ function renderIndex(res, name){
 	});
 }
 
-function renderQuery(res,votename,votenum,votetotal){
-	var query = new AV.Query(vote);
+function renderQuery(res,name,phone,weixin){
+	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ votename: votename,votenum:votenum, votetotal:votetotal,votes: results});
+			res.render('query',{ name: name,phone:phone, weixin:weixin,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -53,14 +53,14 @@ function renderQuery(res,votename,votenum,votetotal){
 	});
 }
 
-function renderSuccess(res,votename,votenum,votetotal){
-	var query = new AV.Query(vote);
+function renderSuccess(res,name,phone,weixin){
+	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ votename: votename,votenum:votenum, votetotal:votetotal,votes: results});
+			res.render('success',{ name: name,phone:phone, weixin:weixin,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -70,17 +70,14 @@ function renderSuccess(res,votename,votenum,votetotal){
 }
 
 app.get('/query',function(req,res){
-	var name=req.query.votename;
-	var phone=req.query.votenum;
-	var weixin=req.query.votetotal;
-	renderQuery(res,votename,votenum,votetotal);
+	var name=req.query.name;
+	var phone=req.query.phone;
+	var weixin=req.query.weixin;
+	renderQuery(res,name,phone,weixin);
 });
 
 app.get('/', function(req, res){
-	var votename = req.query.votename;
-	if(!votename)
-		votename = 'AVOS Cloud';
-	renderIndex(res, votename);
+
 });
 
 app.get('/vote',function(req,res){
@@ -88,19 +85,26 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var votename = req.body.votename;
-	var votenum = req.body.votenum;
-	var votetotal = req.body.votetotal;
+	var name = req.body.name;
+	var phone=req.body.phone;
+	var weixin=req.body.weixin;
+	var studyStatus=req.body.study;
+	var license=req.body.license;
+	var haveCar=req.body.haveCar;
+	var fulltime=req.body.fulltime;
 	if(name && name.trim() !=''){
 		//Save visitor
-		var vote = new Vote();
-		vote.set('votename', votename);
-		vote.set('votenum', votenum);
-		vote.set('votetotal', votetotal);
-		
-		vote.save(null, {
+		var visitor = new Visitor();
+		visitor.set('name', name);
+		visitor.set('phone', phone);
+		visitor.set('weixin', weixin);
+		visitor.set('studyStatus', studyStatus);
+		visitor.set('license', license);
+		visitor.set('haveCar', haveCar);
+		visitor.set('fulltime', fulltime);
+		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,votename,votenum,votetotal);
+				renderSuccess(res,name,phone,weixin);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
