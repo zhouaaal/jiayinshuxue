@@ -77,7 +77,7 @@ app.get('/query',function(req,res){
 });
 
 app.get('/', function(req, res){
-
+res.redirect('/');
 });
 
 app.get('/vote',function(req,res){
