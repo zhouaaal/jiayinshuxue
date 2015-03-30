@@ -77,9 +77,9 @@ app.get('/query',function(req,res){
 });
 
 app.get('/', function(req, res){
-	var name = req.query.votename;
-	if(!name)
-		name = 'AVOS Cloud';
+	var votename = req.query.votename;
+	if(!votename)
+		votename = 'AVOS Cloud';
 	renderIndex(res, votename);
 });
 
@@ -89,8 +89,8 @@ app.get('/vote',function(req,res){
 
 app.post('/',function(req, res){
 	var votename = req.body.votename;
-	var votenum=req.body.votenum;
-	var votetotal=req.body.votetotal;
+	var votenum = req.body.votenum;
+	var votetotal = req.body.votetotal;
 	if(name && name.trim() !=''){
 		//Save visitor
 		var vote = new Visitor();
