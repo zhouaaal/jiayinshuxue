@@ -20,15 +20,15 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var Visitor = AV.Object.extend('Visitor');
+var vote = AV.Object.extend('vote');
 function renderIndex(res, name){
-	var query = new AV.Query(Visitor);
+	var query = new AV.Query(Vote);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ name: name, visitors: results});
+			res.render('index',{ name: name, vote: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -38,13 +38,13 @@ function renderIndex(res, name){
 }
 
 function renderQuery(res,name,phone,weixin){
-	var query = new AV.Query(Visitor);
+	var query = new AV.Query(Vote);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ name: name,phone:phone, weixin:weixin,visitors: results});
+			res.render('query',{votename:name,votenum:num,votetotal:total});
 		},
 		error: function(error){
 			console.log(error);
@@ -52,6 +52,7 @@ function renderQuery(res,name,phone,weixin){
 		}
 	});
 }
+
 
 function renderSuccess(res,name,phone,weixin){
 	var query = new AV.Query(Visitor);
@@ -69,15 +70,40 @@ function renderSuccess(res,name,phone,weixin){
 	});
 }
 
+
+
+function tpseerwm(ab){
+
+	var votename = req.body.(ab+_01);
+	var votenum = req.body.(ab+_02);
+	var votetotal = req.body.(ab+_03);
+	
+	if(name && name.trim() !=''){
+		//Save visitor
+		var vote = new Vote();
+		visitor.set('votename', votename);
+		visitor.set('votenum', votenum);
+		visitor.set('votetotal', votetotal);
+		visitor.save(null, {
+			success: function(gameScore) {
+				renderSuccess(res,name,phone,weixin);
+			},
+			error: function(gameScore, error) {
+				res.render('500', 500);
+			}
+		});
+	}else{
+		res.redirect('/');
+	}
+	});
+}
+
+
 app.get('/query',function(req,res){
 	var name=req.query.name;
 	var phone=req.query.phone;
 	var weixin=req.query.weixin;
-	var study=req.quert.study;
-	var licence=req.quert.licence;
-	var car=req.quert.car;
-	var position=req.quert.position;
-	renderQuery(res,name,phone,weixin,study,licence,car,position);
+	renderQuery(res,name,phone,weixin);
 });
 
 app.get('/', function(req, res){
@@ -92,26 +118,19 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var name = req.body.name;
-	var phone=req.body.phone;
-	var weixin=req.body.weixin;
-	var study=req.body.study;
-	var licence=req.body.licence;
-	var car=req.body.car;
-	var position=req.body.position;
+	var votename = req.body.name;
+	var votenum=req.body.num;
+	var votetotal=req.body.total;
+	
 	if(name && name.trim() !=''){
 		//Save visitor
-		var visitor = new Visitor();
-		visitor.set('name', name);
-		visitor.set('phone', phone);
-		visitor.set('weixin', weixin);
-		visitor.set('study',study);
-		visitor.set('licence',licence);
-		visitor.set('car',car);
-		visitor.set('position',position);
+		var vote = new Vote();
+		visitor.set('votename', name);
+		visitor.set('votenum', num);
+		visitor.set('votetotal', total);
 		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,name,phone,weixin,study,licence,car,position);
+				renderSuccess(res,name,phone,weixin);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
