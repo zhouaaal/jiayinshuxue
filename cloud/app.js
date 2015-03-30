@@ -28,7 +28,7 @@ function renderIndex(res, name){
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ name: name, votes: results});
+			res.render('index',{ votaname: votaname, votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -77,7 +77,7 @@ app.get('/query',function(req,res){
 });
 
 app.get('/', function(req, res){
-res.redirect('/');
+
 });
 
 app.get('/vote',function(req,res){
