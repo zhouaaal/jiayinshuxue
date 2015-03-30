@@ -78,8 +78,7 @@ app.get('/query',function(req,res){
 
 app.get('/', function(req, res){
 	var name = 'AVOS Cloud';
-	if(!votename)
-		votename = 'AVOS Cloud';
+	
 	renderIndex(res, votename);
 });
 
