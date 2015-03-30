@@ -93,7 +93,7 @@ app.post('/',function(req, res){
 	var votetotal = req.body.votetotal;
 	if(name && name.trim() !=''){
 		//Save visitor
-		var vote = new Visitor();
+		var vote = new Vote();
 		vote.set('votename', votename);
 		vote.set('votenum', votenum);
 		vote.set('votetotal', votetotal);
