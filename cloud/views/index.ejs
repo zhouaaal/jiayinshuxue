@@ -196,13 +196,7 @@ function fyshow_openmenu(at_num) {
                 </li>				
                 <li class="p">
                 <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>                              
-                <% if (vote){ %>
-		<%  vote.forEach(function (vote){ %>
-		<li>
-		  <span class="fr">  <%= vote.get('votename') %> </span>
-		  <span class="fl">  <%= vote.get('votenum') %> </span>
-          <span class="fr"><em class="red"><%= vote.get('votetotal') %></em>票</span>
-           <span class="fl bgn">人气值</span>
+       
 		  
 		</li>
 		<% })
