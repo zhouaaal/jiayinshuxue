@@ -1,0 +1,79 @@
+BODY {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, 宋体 , textarea; COLOR: #838383; FONT-SIZE: 12px; FONT-WEIGHT: 400; PADDING-TOP: 0px
+}
+.navigation {
+	MARGIN: 20px auto; WIDTH: 988px; OVERFLOW: hidden
+}
+.breadcrumb {
+	LINE-HEIGHT: 14px; MARGIN: 20px 0px; FONT-SIZE: 12px
+}
+
+EM {
+	FONT-STYLE: normal; FONT-WEIGHT: bold
+}
+.square-nav {
+	BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; BACKGROUND-COLOR: #f7f7f7; HEIGHT: 130px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid
+}
+.ui-nav {
+	BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; BACKGROUND-COLOR: #f7f7f7; WIDTH: 985px; FLOAT: left; HEIGHT: 130px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px
+}
+.ui-nav-item {
+	OVERFLOW-X: hidden; OVERFLOW-Y: hidden; WIDTH: 30%; PADDING-RIGHT: 30px; FLOAT: left
+}
+.ui-nav-item-title {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, "微软雅黑"; FONT-SIZE: 24px; PADDING-TOP: 20px
+}
+.ui-subnav {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 10px
+}
+.ui-subnav-item {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 20px; WHITE-SPACE: nowrap; FLOAT: left
+}
+
+.snsContent {
+	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:834px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
+}
+#container_c {
+	WIDTH: 1000px
+}
+.snsContent .sCl {
+	POSITION: relative; FLOAT: left; MARGIN-RIGHT: 15px; padding-bottom: 20px;
+}
+.snsContent .sCl_list { POSITION: absolute; BORDER: #c8c8c8 1px solid; WIDTH: 258px;  MARGIN-BOTTOM: 15px; PADDING: 0px;
+}
+.sCl_list_i {
+	POSITION: relative; TEXT-ALIGN: center; FLOAT: left; OVERFLOW: hidden
+}
+UL {
+	LIST-STYLE: none none outside; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	LIST-STYLE: none none outside; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	LIST-STYLE: none none outside; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.sCl_list_i .pic .p {
+	FONT-SIZE: 14px;
+}
+.count {
+	MARGIN-LEFT: 20px
+}
+#infscr-loading {
+	Z-INDEX: 100; POSITION: fixed; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 200px; BOTTOM: 40px; PADDING-RIGHT: 10px; BACKGROUND: #000000 0px 0px; COLOR: #ffffff; PADDING-TOP: 10px; LEFT: 45%; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; background-clip: border-box; background-origin: padding-box; background-size: auto auto; opacity: 0.8
+}
+.contenter {
+	BORDER-BOTTOM: #e0e0e0 1px solid; BORDER-LEFT: #e0e0e0 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f7f7f7; MARGIN-TOP: 20px; MARGIN-BOTTOM: 15px; BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid; PADDING-TOP: 20px
+}
+.contenter .messge .tright {
+	WIDTH: 30px
+}
+.clearfix {
+	ZOOM: 1
+}
+#back-to-top {
+	BORDER-BOTTOM: #555 2px solid; POSITION: fixed; BORDER-LEFT: #555 2px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #666666; PADDING-LEFT: 4px; WIDTH: 13px; BOTTOM: 5px; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 13px; BORDER-TOP: #555 2px solid; CURSOR: pointer; RIGHT: 5px; FONT-WEIGHT: bold; BORDER-RIGHT: #555 2px solid; TEXT-DECORATION: none; PADDING-TOP: 4px
+}
+#back-to-top-span {
+	COLOR: #fff
+}
