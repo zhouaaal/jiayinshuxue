@@ -914,33 +914,7 @@ function fyshow_openmenu(at_num) {
 
 
 <script>
-function $v(id) {
-	return document.getElementById(id);
-}
 
-function seerwm(zt) {
-		if(zt==1) {
-				var weixin = document.getElementById("weixin");
-				$v("closebtn").style.display='block';
-				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				weixin.style.top = (document.documentElement.clientHeight-400)/2+scrollTop+"px";	
-				weixin.style.display='block';
-		} else {
-				$v("weixin").style.display='none';				
-		}
-}
-
-function tpseerwm(zt) {
-		if(zt==1) {
-				var weixin = document.getElementById("tpweixin");
-				$v("tpclosebtn").style.display='block';
-				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				weixin.style.top = (document.documentElement.clientHeight-400)/2+scrollTop+"px";	
-				weixin.style.display='block';
-		} else {
-				$v("tpweixin").style.display='none';				
-		}
-}
 </script>
 <style>
 .closed{
@@ -980,36 +954,7 @@ function tpseerwm(zt) {
 }
 </style>
 
-<div class="m_head clearfix">
-    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_01.jpg">
-    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_02.jpg">
-    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_03.jpg">
-    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_04.jpg">
 
-    <div class="menu"><a href="javascript:" onclick="seerwm(1);" class="wycj">我要参加</a><a href="http://e.gusuwang.com/weixin/baby/show/?view" class="csmw">参加萌宝</a><a href="http://e.gusuwang.com/weixin/baby/show/?li=10" class="sssm"></a></div>
-
-</div>
-
-<a name="on" id="on"></a>
-
-<div class="search">
-    <form action="?#on" id="search_form" method="post">
-        <div class="search_con">
-            <div class="btn"><input id="searchBtn" style="cursor:pointer" value="搜索" type="submit"></div>
-            <div class="text_box"><input id="searchText" name="keys" placeholder="请输入萌宝姓名或编号进入投票" autocomplete="off" type="search"></div>
-        </div>
-    </form>
-</div>
-
-<div class="weixin" id="weixin" style="display:none">
-    <div class="closed" id="closebtn" style="display:none; cursor:pointer" onclick="seerwm(0);"></div>
-</div>
-
-<div class="tpweixin" id="tpweixin" style="display:none">
-    <div class="closed" id="tpclosebtn" style="display:none; cursor:pointer" onclick="tpseerwm(0);"></div>
-</div>
-
-<div class="menu1"><div class="menu_nr"><a href="http://e.gusuwang.com/weixin/baby/show/?li=1#on" class="xz">萌宝展示</a><a href="http://e.gusuwang.com/weixin/baby/show/?li=2#on">新加入萌宝</a><a href="http://e.gusuwang.com/weixin/baby/show/?li=3#on">人气排行榜</a></div></div>
 
 <div class="contain">
 
