@@ -94,7 +94,6 @@ app.post('/',function(req, res){
 	var count = req.body.count; 
 	if(pid == req.query.pid){
 		//Save visitor
-		var vote = new Vote();
 		
 		vote.set('count', vote.query.count+1);
 		vote.save(null, {
