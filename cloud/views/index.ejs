@@ -169,13 +169,25 @@ function $v(id) {
                 <form action="/" method="post">
                 <li class="p">
                     
+<% if (votes){ %>
+		<%  votes.forEach(function vote{ %>
+		<li>
                     <p class="clearfix">
                         <span class="fr" id="name">吴思博</span>
                         <span class="fl" id="number">11299号</span>
 
+			<% if vote.get('name') == '吴思博'{ %>
+                    
+                    
+
                     </p>
                     <p class="clearfix">
-                        <span class="fr"><em class="red" id=count>1194</em>票</span>
+		  
+                        <span class="fr"><em class="red" id=count><p>微信：&nbsp <%= vote.get('total') %> </p>
+			
+		</li>
+		<% }})
+		   } %></em>票</span>
                         <span class="fl bgn">人气值</span></p></li>
                         <p class="clearfix tpb"><input type='submit' value='投TA一票' /></p>
 				</form>
