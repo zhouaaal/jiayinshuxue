@@ -129,29 +129,7 @@ function $v(id) {
 	return document.getElementById(id);
 }
 
-function seerwm(zt) {
-		if(zt==1) {
-				var weixin = document.getElementById("weixin");
-				$v("closebtn").style.display='block';
-				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				weixin.style.top = (document.documentElement.clientHeight-400)/2+scrollTop+"px";	
-				weixin.style.display='block';
-		} else {
-				$v("weixin").style.display='none';				
-		}
-}
 
-function tpseerwm(zt) {
-		if(zt==1) {
-				var weixin = document.getElementById("tpweixin");
-				$v("tpclosebtn").style.display='block';
-				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				weixin.style.top = (document.documentElement.clientHeight-400)/2+scrollTop+"px";	
-				weixin.style.display='block';
-		} else {
-				$v("tpweixin").style.display='none';				
-		}
-}
 </script>
 <style>
 .closed{
