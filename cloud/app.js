@@ -77,10 +77,10 @@ app.get('/query',function(req,res){
 });
 
 app.get('/', function(req, res){
-	var votename = 'AVOS Cloud';
-	if(!votename)
-		votename = 'AVOS Cloud';
-	res.redirect('/');
+	var name = req.query.name;
+	if(!name)
+		name = 'AVOS Cloud';
+	renderIndex(res, name);
 });
 
 app.get('/vote',function(req,res){
