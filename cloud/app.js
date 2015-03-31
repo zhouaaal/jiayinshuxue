@@ -94,10 +94,10 @@ app.post('/',function(req, res){
 	if(name && name.trim() !=''){
 		//Save visitor
 		var vote = new Vote();
-		visitor.set('name', name);
-		visitor.set('number', number);
-		visitor.set('count', count);
-		visitor.save(null, {
+		vote.set('name', name);
+		vote.set('number', number);
+		vote.set('count', count);
+		vote.save(null, {
 			success: function(gameScore) {
 				renderSuccess(res,name,number,count);
 			},
