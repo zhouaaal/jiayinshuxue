@@ -91,7 +91,7 @@ app.post('/',function(req, res){
 	var name = req.body.name;
 	var number = req.body.number;
 	var count = req.body.count;
-	if(name && name.trim() !=''){
+	if(true){
 		//Save visitor
 		var vote = new Vote();
 		vote.set('name', name);
@@ -99,7 +99,7 @@ app.post('/',function(req, res){
 		vote.set('count', count);
 		vote.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,name,number,count);
+				res.redirect('/');
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
