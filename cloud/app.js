@@ -88,10 +88,12 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
+	var pid = req.body.pid;
 	var name = req.body.name;
 	var number = req.body.number;
 	var count = req.body.count;
 		var vote = new Vote();
+		vote.set('pid', pid);
 		vote.set('name', name);
 		vote.set('number', number);
 		vote.set('count', count);
