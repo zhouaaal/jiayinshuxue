@@ -62,3 +62,5 @@ div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-fam
 .search .search_con .btn #searchBtn {background: none; color: #193FB2; font-family:"microsoft yahei"}
 
 .search .join_us{display: inline-block;padding:0 10px;float: right;line-height: 32px;border-radius: 15px;text-align: center;background-color: #ff4040;color: #fff;margin-right: 10px;}
+
+.textear {overflow:auto; background-attachment:fixed;background-repeat:no-repeat;border-style:solid;border-color:#FFFFFF" resize: none;} 
