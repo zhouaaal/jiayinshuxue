@@ -90,7 +90,7 @@ app.get('/vote',function(req,res){
 app.post('/',function(req, res){
 	var pid = req.body.pid
 
-	if(pid == req.query.pid){
+	if(true){
 		//Save visitor
 				
 		vote.set('count', vote.query.count+1);
