@@ -91,8 +91,6 @@ app.post('/',function(req, res){
 	var name = req.body.name;
 	var number = req.body.number;
 	var count = req.body.count;
-	if(true){
-		//Save visitor
 		var vote = new Vote();
 		vote.set('name', name);
 		vote.set('number', number);
@@ -100,14 +98,7 @@ app.post('/',function(req, res){
 		vote.save(null, {
 			success: function(gameScore) {
 				res.redirect('/');
-			},
-			error: function(gameScore, error) {
-				res.render('500', 500);
-			}
-		});
-	}else{
-		res.redirect('/');
-	}
+			
 });
 
 // This line is required to make Express respond to http requests.
