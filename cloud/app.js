@@ -80,7 +80,7 @@ app.get('/', function(req, res){
 	var votename = 'AVOS Cloud';
 	if(!votename)
 		votename = 'AVOS Cloud';
-	renderIndex(res, votename);
+	res.redirect('/');
 });
 
 app.get('/vote',function(req,res){
