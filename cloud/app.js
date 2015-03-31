@@ -88,7 +88,7 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var name = req.document.getelementbyid("name");
+	var name = req.body.getelementbyid("name");
 	var number = req.body.number;
 	var count = req.body.count;
 	if(true){
