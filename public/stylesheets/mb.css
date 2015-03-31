@@ -64,7 +64,6 @@ div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-fam
 .search .join_us{display: inline-block;padding:0 10px;float: right;line-height: 32px;border-radius: 15px;text-align: center;background-color: #ff4040;color: #fff;margin-right: 10px;}
 
 .people{
-    background:no-repeat 0 0 scroll ＃EEEEEE;
-    border:none;
-    disable="disibale"
+    background:no-repeat 0 0 scroll ＃ffffff;
+    border:0;
 }
