@@ -93,22 +93,810 @@ function fyshow_openmenu(at_num) {
 
 <style type="text/css"> 
 
+<!--
 
+
+.at_l1{width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+
+.at_l2{width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+
+.at_l3{width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);left:5px;}
+
+.at_l4{width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:390px;   
+
+     position:absolute; z-index:400; top:expression(offsetParent.scrollTop+390);left:5px;}
+
+.at_r1{width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+
+.at_r2{width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);right:5px;}
+
+.at_r3{width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);right:5px;}
+
+.at_r4{width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:390px;   
+
+     position:absolute; z-index:400; top:expression(offsetParent.scrollTop+390);right:5px;}
+
+.at_r21 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);right:5px;}
+
+.at_l21 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+
+.at_r22 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:500px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+500);right:5px;}
+
+.at_l22 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+
+.at_r11 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+
+.at_l11 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);left:5px;}
+
+.at_r23 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);right:5px;}
+
+.at_r24 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);right:5px;}
+
+.at_r12 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+
+.at_l23 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+
+.at_r13 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+
+.at_l12 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);left:5px;}
+
+.at_l24 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+.at_l25 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+.at_r14 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+.at_r25 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);right:5px;}
+.at_l26 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+.at_r26 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);right:5px;}
+.at_l27 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+400);left:5px;}
+.at_l13 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);left:5px;}
+.at_r15 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);right:5px;}
+.at_l14 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);left:5px;}
+.at_l15 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);left:5px;}
+.at_l16 {width:100px;height:85px;float:right;   
+     position:fixed !important; top/**/:125px;   
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+125);left:5px;}
+.at_r27 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:400px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+450);right:5px;}
+.at_l28 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:400px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+450);left:5px;}
+.at_r16 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);right:5px;}
+.at_r28 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:400px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+450);right:5px;}
+.at_l29 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:400px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+450);left:5px;}
+.at_r17 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);right:5px;}
+.at_l17 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);left:5px;}
+.at_r29 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:400px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+450);right:5px;}
+.at_r210 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:400px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+450);right:5px;}
+.at_r18 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+.at_r19 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);right:5px;}
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);right:5px;}
+.at_l31 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:485px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+485);left:5px;}
+.at_r211 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_l210 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);left:5px;}
+.at_r31 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:485px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+485);right:5px;}
+.at_r110 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:120px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+120);right:5px;}
+.at_r111 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_l18 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r112 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_r212 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_l211 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);left:5px;}
+.at_r213 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_r113 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_r2131 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_r114 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_l19 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r1141 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_l212 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);left:5px;}
+.at_l110 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r214 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_l111 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r215 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_r216 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_l112 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r2161 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_l113 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r217 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);right:5px;}
+.at_l213 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);left:5px;}
+.at_r115 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_l214 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:440px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+440);left:5px;}
+.at_l114 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r116 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_r117 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+.at_l32 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:515px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+515);left:5px;}
+.at_r118 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+.at_r119 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:70px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+70);right:5px;}
+.at_r120 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_l115 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_l116 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);left:5px;}
+.at_r218 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+350);right:5px;}
+.at_r121 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_r122 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_l215 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:350px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+350);left:5px;}
+.at_r123 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:80px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+80);right:5px;}
+.at_r124 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l33 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:515px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+515);left:5px;}
+.at_l34 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:515px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+515);left:5px;}
+.at_r219 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:230px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+230);right:5px;}
+.at_l216 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:230px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+230);left:5px;}
+.at_r125 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l217 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:230px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+230);left:5px;}
+.at_r126 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r127 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r32 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:515px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+515);right:5px;}
+.at_r33 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:515px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+515);right:5px;}
+.at_r220 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:320px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+320);right:5px;}
+.at_l35 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);left:5px;}
+.at_r34 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);right:5px;}
+.at_r128 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r129 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r130 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r221 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:242px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+242);right:5px;}
+.at_l218 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:242px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+242);left:5px;}
+.at_l117 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_l219 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+.at_r222 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);right:5px;}
+.at_l220 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+.at_r131 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r132 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r223 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:205px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+205);right:5px;}
+.at_r133 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:45px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+45);right:5px;}
+.at_r224 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);right:5px;}
+.at_l221 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+.at_r35 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:365px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+365);right:5px;}
+.at_l222 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:205px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+205);left:5px;}
+.at_r134 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r36 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);right:5px;}
+.at_l118 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r37 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);right:5px;}
+.at_r135 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r136 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r38 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);right:5px;}
+.at_r137 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l119 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r138 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l120 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r139 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r225 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:242px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+242);right:5px;}
+.at_l223 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:242px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+242);left:5px;}
+.at_r140 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r141 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l224 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+.at_r39 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);right:5px;}
+.at_r226 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);right:5px;}
+.at_l36 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);left:5px;}
+.at_l225 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+.at_l37 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:475px;   
+
+     position:absolute; z-index:300; top:expression(offsetParent.scrollTop+475);left:5px;}
+.at_l121 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_l122 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r142 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r143 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l123 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r144 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r145 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_r227 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);right:5px;}
+.at_l226 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+.at_l124 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r146 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l125 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);left:5px;}
+.at_r147 {width:100px;height:200px;float:right;   
+
+     position:fixed !important; top:10px;   
+
+     position:absolute; z-index:100; top:expression(offsetParent.scrollTop+10);right:5px;}
+.at_l227 {width:100px;height:85px;float:right;   
+
+     position:fixed !important; top:300px;   
+
+     position:absolute; z-index:200; top:expression(offsetParent.scrollTop+300);left:5px;}
+
+-->
 
 </style>
 
-<div class="at_l1" id="fy_l1" style="display:block;z-index:3333"><a href="http://www.srdlc.com/user/landing_register.html?from=gswmby1=hd#landing" target="_blank"><img src="vote_files/vgg01.png" border="0" height="200" width="100"></a><br>
+<div class="at_l1" id="fy_l1" style="display:block;z-index:3333"><a href="http://www.srdlc.com/user/landing_register.html?from=gswmby1=hd#landing" target="_blank"><img src="http://7xic0d.com1.z0.glb.clouddn.com/vgg01.png" border="0" height="200" width="100"></a><br>
 <div align="right"><a href="javascript:fyshow_openmenu('l1');"><span class="p9"><b>×</b></span></a></div></div><div class="at_l2" id="fy_l2" style="display:none;z-index:3333"><a href="http://blog.gusuwang.com/stats/?cid=978" target="_blank"><img class="duabfnxyedsydsyvtxue" src="http://7xic0d.com1.z0.glb.clouddn.com/szly10085.gif" border="0" height="85" width="100"></a><br>
 
 
 
-<div align="right"><a href="javascript:fyshow_openmenu('l2');"><span class="p9"><b>×</b></span></a></div></div><div class="at_l3" id="fy_l3" style="display:none"><a href="http://www.gusuwang.com/thread-1316502-1-1.html" target="_blank"><img class="duabfnxyedsydsyvtxue" src="vote_files/zx100.gif" border="0" height="85" width="100"></a><br>
+<div align="right"><a href="javascript:fyshow_openmenu('l2');"><span class="p9"><b>×</b></span></a></div></div><div class="at_l3" id="fy_l3" style="display:none"><a href="http://www.gusuwang.com/thread-1316502-1-1.html" target="_blank"><img class="duabfnxyedsydsyvtxue" src="http://7xic0d.com1.z0.glb.clouddn.com/zx100.gif" border="0" height="85" width="100"></a><br>
 
 <div align="right"><a href="javascript:fyshow_openmenu('l3');"><span class="p9"><b>×</b></span></a></div></div><div class="at_l4" id="fy_l4" style="display:none"><a href="http://www.512ms.com/fyym/10/04/30/fj/" target="_blank"><img src="vote_files/fj100.htm" border="0" height="85" width="100"></a><br>
 
 <div align="right"><a href="javascript:fyshow_openmenu('l4');"><span class="p9"><b>×</b></span></a></div></div>
 
-<div class="at_r1" id="fy_r1" style="display:block; z-index:3333"><a href="http://www.srdlc.com/landing/lovelyBaby.html?from=gswmby2=hd#landing" target="_blank"><img src="vote_files/vgg02.png" border="0" height="200" width="100"></a><br>
+<div class="at_r1" id="fy_r1" style="display:block; z-index:3333"><a href="http://www.srdlc.com/landing/lovelyBaby.html?from=gswmby2=hd#landing" target="_blank"><img src="http://7xic0d.com1.z0.glb.clouddn.com/vgg02.png" border="0" height="200" width="100"></a><br>
 
 <div align="right"><a href="javascript:fyshow_openmenu('r1');"><span class="p9"><b>×</b></span></a></div></div>
 
@@ -126,7 +914,33 @@ function fyshow_openmenu(at_num) {
 
 
 <script>
+function $v(id) {
+	return document.getElementById(id);
+}
 
+function seerwm(zt) {
+		if(zt==1) {
+				var weixin = document.getElementById("weixin");
+				$v("closebtn").style.display='block';
+				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+				weixin.style.top = (document.documentElement.clientHeight-400)/2+scrollTop+"px";	
+				weixin.style.display='block';
+		} else {
+				$v("weixin").style.display='none';				
+		}
+}
+
+function tpseerwm(zt) {
+		if(zt==1) {
+				var weixin = document.getElementById("tpweixin");
+				$v("tpclosebtn").style.display='block';
+				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+				weixin.style.top = (document.documentElement.clientHeight-400)/2+scrollTop+"px";	
+				weixin.style.display='block';
+		} else {
+				$v("tpweixin").style.display='none';				
+		}
+}
 </script>
 <style>
 .closed{
@@ -166,7 +980,36 @@ function fyshow_openmenu(at_num) {
 }
 </style>
 
+<div class="m_head clearfix">
+    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_01.jpg">
+    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_02.jpg">
+    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_03.jpg">
+    <img src="http://7xic0d.com1.z0.glb.clouddn.com/index_04.jpg">
 
+    <div class="menu"><a href="javascript:" onclick="seerwm(1);" class="wycj">我要参加</a><a href="http://e.gusuwang.com/weixin/baby/show/?view" class="csmw">参加萌宝</a><a href="http://e.gusuwang.com/weixin/baby/show/?li=10" class="sssm"></a></div>
+
+</div>
+
+<a name="on" id="on"></a>
+
+<div class="search">
+    <form action="?#on" id="search_form" method="post">
+        <div class="search_con">
+            <div class="btn"><input id="searchBtn" style="cursor:pointer" value="搜索" type="submit"></div>
+            <div class="text_box"><input id="searchText" name="keys" placeholder="请输入萌宝姓名或编号进入投票" autocomplete="off" type="search"></div>
+        </div>
+    </form>
+</div>
+
+<div class="weixin" id="weixin" style="display:none">
+    <div class="closed" id="closebtn" style="display:none; cursor:pointer" onclick="seerwm(0);"></div>
+</div>
+
+<div class="tpweixin" id="tpweixin" style="display:none">
+    <div class="closed" id="tpclosebtn" style="display:none; cursor:pointer" onclick="tpseerwm(0);"></div>
+</div>
+
+<div class="menu1"><div class="menu_nr"><a href="http://e.gusuwang.com/weixin/baby/show/?li=1#on" class="xz">萌宝展示</a><a href="http://e.gusuwang.com/weixin/baby/show/?li=2#on">新加入萌宝</a><a href="http://e.gusuwang.com/weixin/baby/show/?li=3#on">人气排行榜</a></div></div>
 
 <div class="contain">
 
@@ -192,15 +1035,21 @@ function fyshow_openmenu(at_num) {
     <div class="sCl_list_i">
 
             <ul class="pic">
+
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1787711_809746fbad42e31c9270zNG7Dy9eel77.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="342" width="258">
-                </li>				
+                </li>
                 <li class="p">
-                <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>                              
-       
-		  
-		</li>
-		<% })
-		   } %>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix">
+                        <span class="fr">吴思博</span>
+                        <span class="fl">11299号</span>
+
+                    </p>
+                    <p class="clearfix">
+                        <span class="fr"><em class="red">1194</em>票</span>
+                        <span class="fl bgn">人气值</span></p></li>
+
+
 
             </ul>
 
@@ -216,7 +1065,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1706262_ab46ac2919f7102e1c7609pOd6uP92L5.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="458" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">朱星泽</span>
                         <span class="fl">7007号</span>
@@ -242,14 +1091,14 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1597495_fe658f044853e8248c6b22188FPBOBOQ.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="258" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">张歆蕊</span>
                         <span class="fl">2668号</span>
 
                     </p>
                     <p class="clearfix">
-                        <span class="fr"><em class="red" >490</em>票</span>
+                        <span class="fr"><em class="red">490</em>票</span>
                         <span class="fl bgn">人气值</span></p></li>
 
 
@@ -268,17 +1117,18 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1614492_c49602aad30115b8c111wVWCcTQ0CcC8.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="458" width="258">
                 </li>
                 <li class="p">
-                    <form action="/" method="post">
-                       <span  class="fr" id='votename' >赵康睿</span>
-		  			   <span  class="fl" id='votenum'>18415号</span>
-                       <span  class="fl" id='votetotal'><em class="red">91</em>票</span> 
-                       <span class="fl bgn">人气值</span></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix">
+                        <span class="fr">董诗琪</span>
+                        <span class="fl">1633号</span>
 
-		  <div><input type='submit' value='投一票' /></div>
-		                      
-                    </form>
-                                                
-                    </li>
+                    </p>
+                    <p class="clearfix">
+                        <span class="fr"><em class="red">1959</em>票</span>
+                        <span class="fl bgn">人气值</span></p></li>
+
+
+
             </ul>
 
     </div>
@@ -289,11 +1139,11 @@ function fyshow_openmenu(at_num) {
     <div class="sCl_list_i">
 
             <ul class="pic">
-		
+
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/2033393_b7fc20f6778f34283a305ijlk2dd2HJC.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="345" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">赵康睿</span>
                         <span class="fl">18415号</span>
@@ -319,7 +1169,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1619316_17dbb3a279496f5371d83nl12T6Zw1oN.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="388" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">方子骜</span>
                         <span class="fl">2037号</span>
@@ -345,7 +1195,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1600729_48c5f00834e58877dda9oODV9p9pW14o.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="343" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">陈芷妤</span>
                         <span class="fl">4098号</span>
@@ -371,7 +1221,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1065767_68be87b37af7123145e6h5mE0w050828.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="341" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">徐嘉潞</span>
                         <span class="fl">1680号</span>
@@ -397,7 +1247,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1611668_821332db3b9476aec2fexslAH97Of1aw.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="344" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">周依妮</span>
                         <span class="fl">1497号</span>
@@ -423,7 +1273,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1596821_98315af7c58123f6da09R3lrj33ntrnw.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="343" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">李嘉怡</span>
                         <span class="fl">446号</span>
@@ -449,7 +1299,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1881767_ee53547b37f96bc4e624QIvYVoeOgxiZ.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="344" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">阮天骐</span>
                         <span class="fl">15209号</span>
@@ -475,7 +1325,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1820428_a709016352e32cc199555k9SZ8f9QRf4.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="343" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">刘兆宇</span>
                         <span class="fl">13014号</span>
@@ -501,7 +1351,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1752012_50e5ddcc6b31e8ba99531i71sI7bmimi.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="344" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">肖郅瀚 肖源</span>
                         <span class="fl">9478号</span>
@@ -527,7 +1377,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1656281_efbd56d78c371947cdf1JkkPJf3kEF9j.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="343" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">李垣辰</span>
                         <span class="fl">5819号</span>
@@ -553,7 +1403,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1603224_c9f09526e9566db367659f6OOOhaOAaO.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="458" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">金汕如</span>
                         <span class="fl">1048号</span>
@@ -579,7 +1429,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1959123_6e67bdfe1917093635947yXK3133ix77.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="255" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">张泽雨</span>
                         <span class="fl">16604号</span>
@@ -605,7 +1455,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1065767_0870bf7dfa3c6d655f7018rSZeOZr6u4.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="343" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">王子轩</span>
                         <span class="fl">12923号</span>
@@ -631,7 +1481,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1617764_8cbca6b9d80ebb42b1fcImujgMmoVKt5.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="171" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">成诺岩</span>
                         <span class="fl">3841号</span>
@@ -657,7 +1507,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1605394_7a285efd4a350c0b8a5ejdVvTO4P2482.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="172" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">沈佳妮</span>
                         <span class="fl">1200号</span>
@@ -683,7 +1533,7 @@ function fyshow_openmenu(at_num) {
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1065767_79d1bd189aff529073ea21Xkz1GYZr69.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="344" width="258">
                 </li>
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
                     <p class="clearfix">
                         <span class="fr">桂以萱</span>
                         <span class="fl">423号</span>
