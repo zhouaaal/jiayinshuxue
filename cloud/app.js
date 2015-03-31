@@ -89,12 +89,10 @@ app.get('/vote',function(req,res){
 
 app.post('/',function(req, res){
 	var pid = req.body.pid
-	var name = req.body.name;
-	var number = req.body.number;
-	var count = req.body.count; 
+
 	if(pid == req.query.pid){
 		//Save visitor
-		
+				
 		vote.set('count', vote.query.count+1);
 		vote.save(null, {
 			success: function(gameScore) {
