@@ -88,19 +88,26 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var pid = req.body.pid;
+	var pid = req.body.pid
 	var name = req.body.name;
 	var number = req.body.number;
-	var count = req.body.count;
+	var count = req.body.count; 
+	if(pid == req.query.pid){
+		//Save visitor
 		var vote = new Vote();
-		vote.set('pid', pid);
-		vote.set('name', name);
-		vote.set('number', number);
-		vote.set('count', count);
+		
+		vote.set('count', vote.query.count+1);
 		vote.save(null, {
 			success: function(gameScore) {
 				res.redirect('/');
-			
+			},
+			error: function(gameScore, error) {
+				res.render('500', 500);
+			}
+		});
+	}else{
+		res.redirect('/');
+	}
 });
 
 // This line is required to make Express respond to http requests.
