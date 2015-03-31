@@ -20,15 +20,15 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var vote = AV.Object.extend('vote');
-function renderIndex(res, votename){
-	var query = new AV.Query(vote);
+var Vote = AV.Object.extend('Vote');
+function renderIndex(res, name){
+	var query = new AV.Query(Vote);
 	query.skip(0);
-	query.limit(10000);
+	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ votename: votename, votenum: votenum, votetotal: votetotal, votes: results});
+			res.render('index',{ name: name, votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -37,14 +37,14 @@ function renderIndex(res, votename){
 	});
 }
 
-function renderQuery(res,votename,votenum,votetotal){
-	var query = new AV.Query(vote);
+function renderQuery(res,name,number,count){
+	var query = new AV.Query(Vote);
 	query.skip(0);
-	query.limit(10000);
+	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ votename: votename,votenum:votenum, votetotal:votetotal,votes: results});
+			res.render('query',{ name: name,number:number, count:count,votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -53,14 +53,14 @@ function renderQuery(res,votename,votenum,votetotal){
 	});
 }
 
-function renderSuccess(res,votename,votenum,votetotal){
-	var query = new AV.Query(vote);
+function renderSuccess(res,name,number,count){
+	var query = new AV.Query(Vote);
 	query.skip(0);
-	query.limit(10000);
+	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ votename: votename,votenum:votenum, votetotal:votetotal,votes: results});
+			res.render('success',{ name: name,number:number, count:count,votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -70,17 +70,17 @@ function renderSuccess(res,votename,votenum,votetotal){
 }
 
 app.get('/query',function(req,res){
-	var name=req.query.votename;
-	var phone=req.query.votenum;
-	var weixin=req.query.votetotal;
-	renderQuery(res,votename,votenum,votetotal);
+	var name=req.query.name;
+	var number=req.query.number;
+	var count=req.query.count;
+	renderQuery(res,name,number,count);
 });
 
 app.get('/', function(req, res){
-	var votename = req.query.votename;
-	if(!votename)
-		votename = 'AVOS Cloud';
-	renderIndex(res, votename);
+	var name = req.query.name;
+	if(!name)
+		name = 'AVOS Cloud';
+	renderIndex(res, name);
 });
 
 app.get('/vote',function(req,res){
@@ -88,20 +88,18 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var votename = req.body.votename;
-	var votenum=req.body.votenum;
-	var votetotal=req.body.votetotal;
-	
+	var name = req.body.name;
+	var number=req.body.number;
+	var count=req.body.count;
 	if(name && name.trim() !=''){
 		//Save visitor
-		var vote = new vote();
-		vote.set('votename', votename);
-		vote.set('votenum', votenum);
-		vote.set('votetotal', votetotal);
-		
-		vote.save(null, {
+		var vote = new Vote();
+		visitor.set('name', name);
+		visitor.set('number', number);
+		visitor.set('count', count);
+		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,votename,votenum,votetotal);
+				renderSuccess(res,name,number,count);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
