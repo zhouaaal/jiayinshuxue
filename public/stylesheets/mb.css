@@ -62,7 +62,9 @@ div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-fam
 .search .search_con .btn #searchBtn {background: none; color: #193FB2; font-family:"microsoft yahei"}
 
 .search .join_us{display: inline-block;padding:0 10px;float: right;line-height: 32px;border-radius: 15px;text-align: center;background-color: #ff4040;color: #fff;margin-right: 10px;}
-.people{border:0px;border-style:none;width:55px;
+.inputtext1{border:0px;border-style:none;width:55px;
 }
-.people2{border:0px;border-style:none;width:25px;
+.inputtext2{border:0px;border-style:none;width:35px;
+}
+.inputtext3{border:0px;border-style:none;width:25px;
 }
