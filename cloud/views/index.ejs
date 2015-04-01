@@ -206,7 +206,7 @@ function $v(id) {
                     </p>
                     <p class="clearfix">
                         <input type="text" class="people fl" id="pop" name="pop" readonly value="人气值"/>
-                        <span class="fr"><input type="text" class="people2" id="count" name="count"  readonly="true" value="120"/>票</span>
+                       <span class="people fr"><input type="text" class="people2" id="count" name="count"  readonly="true" value="120"/>票</span>
                         </p></li>
 				</form>
                
@@ -224,20 +224,22 @@ function $v(id) {
 
                 <li><img src="http://7xic0d.com1.z0.glb.clouddn.com/1597495_fe658f044853e8248c6b22188FPBOBOQ.jpg" onload="javascript:photoDrawImage(258,500,this)" border="0" height="258" width="258">
                 </li>
+                
+                
+                
+                <form action="/" method="post">
                 <li class="p">
-                    <p class="clearfix tpb"><a href="javascript:" onclick="tpseerwm(1);" class="dovote" data-baby_id="0" data-rule_id="0">投TA一票</a></p>
+                    <p class="clearfix tpb"><input type='submit' value='投TA一票' pid="001" class="dovote"/></p>
                     <p class="clearfix">
-                        <span class="fr">张歆蕊</span>
-                        <span class="fl">2668号</span>
-
+                    <input type="text" class="people fr" id="number" name="number"  readonly="true" value="2668号"/>
+                     <input type="text" class="people fl" id="name" name="name" readonly value="张歆蕊"/>
                     </p>
                     <p class="clearfix">
-                        <span class="fr"><em class="red">490</em>票</span>
-                        <span class="fl bgn">人气值</span></p></li>
-
-
-
-            </ul>
+                        <input type="text" class="people fl" id="pop" name="pop" readonly value="人气值"/>
+                        <span class="people fr"><input type="text" class="people2" id="count" name="count"  readonly="true" value="120"/>票</span>
+                        </p></li>
+				</form>
+           </ul>
 
     </div>
 
