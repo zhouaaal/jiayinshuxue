@@ -15,7 +15,7 @@ EM {
 	BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; BACKGROUND-COLOR: #f7f7f7; HEIGHT: 130px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid
 }
 .ui-nav {
-	BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; BACKGROUND-COLOR: #f7f7f7; WIDTH: 985px; FLOAT: left; HEIGHT: 130px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px
+	BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; BACKGROUND-COLOR: #f7f7f7; WIDTH: 550px; FLOAT: left; HEIGHT: 130px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px
 }
 .ui-nav-item {
 	OVERFLOW-X: hidden; OVERFLOW-Y: hidden; WIDTH: 30%; PADDING-RIGHT: 30px; FLOAT: left
@@ -31,7 +31,7 @@ EM {
 }
 
 .snsContent {
-	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:600px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
+	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:530px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
 }
 #container_c {
 	WIDTH: 1000px
