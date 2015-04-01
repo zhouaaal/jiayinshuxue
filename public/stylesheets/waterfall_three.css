@@ -31,10 +31,10 @@ EM {
 }
 
 .snsContent {
-	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:650px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
+	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:580px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
 }
 #container_c {
-	WIDTH: 540px
+	WIDTH: 580px
 }
 .snsContent .sCl {
 	POSITION: relative; FLOAT: left; MARGIN-RIGHT: 15px; padding-bottom: 20px;
