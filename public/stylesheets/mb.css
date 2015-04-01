@@ -65,6 +65,6 @@ div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-fam
 
 .inputtext1{border:0px;border-style:none;width:40px;FONT-FAMILY: Arial, 宋体 , textarea;COLOR: #838383;FONT-SIZE: 12px;FONT-WEIGHT: 400;
 }
-.inputtext3{border:0px;border-style:none;width:25px;FONT-FAMILY: Arial, 宋体 , textarea;FONT-SIZE: 12px;
-FONT-WEIGHT: 400;
+.inputtext3{border:0px;border-style:none;width:25px;FONT-FAMILY: Arial, 宋体 , textarea;FONT-SIZE: 14px;FONT-STYLE: normal;
+FONT-WEIGHT: bold;
 }
