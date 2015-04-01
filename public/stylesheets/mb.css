@@ -7,7 +7,7 @@ li>div{position: relative;padding: 0px;border:1px #D9D9D9 solid; border-bottom: 
 p{ margin:0; padding:0}
 .p .clearfix{ padding: 5px 10px;}
 .tpb{ position: absolute; margin-top:-40px;right:0px;}
-.dovote{ border-radius: 10px;  font-size: 12px;background: #FF9900; color: #FFFFFF; padding:5px 10px;width:5em;}
+.dovote{ border:0px;border-style:none;font-size: 12px;background: #FF9900; color: #FFFFFF; padding:5px 10px;width:5em;}
 
 .fr{ float: right;}
 .fl{ float: left;}
@@ -62,6 +62,3 @@ div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-fam
 .search .search_con .btn #searchBtn {background: none; color: #193FB2; font-family:"microsoft yahei"}
 
 .search .join_us{display: inline-block;padding:0 10px;float: right;line-height: 32px;border-radius: 15px;text-align: center;background-color: #ff4040;color: #fff;margin-right: 10px;}
-
-.people{border-top:0px ; border-left:0px ; border-right:0px;width:55px;
-}
