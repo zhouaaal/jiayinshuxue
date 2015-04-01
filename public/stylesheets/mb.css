@@ -12,7 +12,7 @@ p{ margin:0; padding:0}
 .fr{ float: right;}
 .fl{ float: left;}
 
-em.red{color: #ff3300;}
+.red{color: #ff3300;}
 
 .contain{  width:894px; margin: 0 auto;overflow: hidden;}
 .m_head{ width:980px; margin: 0 auto 15px auto; overflow: hidden;}
