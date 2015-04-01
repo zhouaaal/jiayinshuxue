@@ -31,7 +31,7 @@ EM {
 }
 
 .snsContent {
-	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:834px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
+	POSITION: relative; MARGIN: 0px auto 0px auto; overflow: hidden; width:650px; background: #ffffff; border-radius: 15px; border-top-right-radius: 0px; padding: 30px;
 }
 #container_c {
 	WIDTH: 1000px
