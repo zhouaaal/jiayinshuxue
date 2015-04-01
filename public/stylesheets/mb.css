@@ -175,7 +175,7 @@ function $v(id) {
                     </p>
                     <p class="clearfix">
                         <input type="text" class="inputtext1 fl" id="pop" name="pop" readonly value="人气值"/>
-                        <span class="people fr"><input type="text" class="inputtext3 red" id="count" name="count"  readonly="true" value="120"/>票</span>
+                        <span class="fr"><input type="text" class="inputtext3 red" id="count" name="count"  readonly="true" value="120"/>票</span>
                         </p></li>
 				</form>
 
@@ -206,7 +206,7 @@ function $v(id) {
                     </p>
                     <p class="clearfix">
                         <input type="text" class="inputtext1 fl" id="pop" name="pop" readonly value="人气值"/>
-                       <span class="people fr"><input type="text" class="inputtext3 red" id="count" name="count"  readonly="true" value="120"/>票</span>
+                       <span class="fr"><input type="text" class="inputtext3 red" id="count" name="count"  readonly="true" value="120"/>票</span>
                         </p></li>
 				</form>
                
@@ -236,7 +236,7 @@ function $v(id) {
                     </p>
                     <p class="clearfix">
                         <input type="text" class="inputtext1 fl" id="pop" name="pop" readonly value="人气值"/>
-                        <span class="people fr"><input type="text" class="inputtext3 red" id="count" name="count"  readonly="true" value="120"/>票</span>
+                        <span class="fr"><input type="text" class="inputtext3 red" id="count" name="count"  readonly="true" value="120"/>票</span>
                         </p></li>
 				</form>
            </ul>
