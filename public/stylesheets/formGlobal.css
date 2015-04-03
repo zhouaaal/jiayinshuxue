@@ -176,3 +176,18 @@ label.fs_disabled_elem { color: #999; }
 .f_chartViewBtn:active{color:#FFF;}
 .f_chartViewBtn:visited{color:#FFF;}
 .f_chartViewBtn:hover {background-color: #659CCC;}
+.input {
+height: 18px;
+font: 12px/1.0 "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+word-wrap: break-word;
+color: #000;
+margin-top: 3px;
+line-height: 18px;
+border: 1px solid #D3D3D3;
+border-radius: 0;
+font-size: 12px;
+padding: 5px;
+outline: 0 none;
+margin: 0;
+padding: 0;
+}
