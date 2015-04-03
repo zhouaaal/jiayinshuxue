@@ -28,7 +28,7 @@ function renderIndex(res, name){
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ parent: parent, votes: results});
+			res.render('index',{ parent: parent, infos: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -60,7 +60,7 @@ function renderSuccess(res,parent,phone,weinxin,study){
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ parent:parent,phone:phone,weinxin:weinxin,study:study,votes: results});
+			res.render('success',{ parent:parent,phone:phone,weinxin:weinxin,study:study,infos: results});
 		},
 		error: function(error){
 			console.log(error);
