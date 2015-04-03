@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.mikecrm.com/f.php?t=K0CYaF -->
+<html class=" js ">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>《最强大脑》刘健老师全国巡讲 太仓站</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="robots" content="noarchive">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="description" content="亲爱的太仓朋友们，也许你们不知道第三思维这个很新奇的名称，但是大家一定知道《最强大脑》节目吧？">
+<link rel="stylesheet" href="http://asset.mikecrm.megaintel.com/form/css/formReset.css?m=20131018">
+<link rel="stylesheet" href="http://asset.mikecrm.megaintel.com/form/css/datePicker.css?m=20140514">
+<script type="text/javascript" src="./《最强大脑》刘健老师全国巡讲 太仓站_files/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
+		var mkwsqua = navigator.userAgent;
+		var mkwsqurl = (window.location != window.parent.location) ? document.referrer: document.location.href;
+		if(mkwsqurl.match("m.wsq.qq.com") || false){
+			window.mkwsq=true;
+			if(mkwsqua.match(/QQBrowser/i) || !(mkwsqua.match(/trident/igm) || mkwsqua.match(/msie/i))) {
+				var oHead = document.getElementsByTagName('HEAD').item(0);
+				var oScript= document.createElement("script");
+				oScript.type = "text/javascript";
+				oScript.src="http://dzqun.gtimg.cn/openapp/scripts/interface.js";
+				oScript.charset = 'utf-8';
+				oHead.appendChild(oScript);
+			}
+		}
+	</script>
+<script type="text/javascript">
+		// try fix weixin 2015
+		// end
+		var gToken = 'K0CYaF',
+			fcmnum = 2710,
+			gJson = '',
+			_gHost = "mikecrm",
+			_gCurrencyObj = false,
+			mgreferer = 'NULL',
+			formJSON = {"id":161383,"name":"\u300a\u6700\u5f3a\u5927\u8111\u300b\u5218\u5065\u8001\u5e08\u5168\u56fd\u5de1\u8bb2 \u592a\u4ed3\u7ad92","template":"{\"form\":{\"title\":\"\u300a\u6700\u5f3a\u5927\u8111\u300b\u5218\u5065\u8001\u5e08\u5168\u56fd\u5de1\u8bb2 \u592a\u4ed3\u7ad9\",\"logo\":\"\",\"backgroundimg\":\"url(http%3A%2F%2Fwww.mikecrm.com%2Fimages%2FformTemplate%2Fimg-bmsq-1-0.jpg)\",\"backgroundtype\":\"repeat\",\"titlebackground\":\"none\",\"subtitle\":\"\u4eb2\u7231\u7684\u592a\u4ed3\u670b\u53cb\u4eec\uff0c\u4e5f\u8bb8\u4f60\u4eec\u4e0d\u77e5\u9053\u7b2c\u4e09\u601d\u7ef4\u8fd9\u4e2a\u5f88\u65b0\u5947\u7684\u540d\u79f0\uff0c\u4f46\u662f\u5927\u5bb6\u4e00\u5b9a\u77e5\u9053\u300a\u6700\u5f3a\u5927\u8111\u300b\u8282\u76ee\u5427\uff1f\",\"formShare\":true,\"FLAGS\":\"[]\",\"GROUPS\":\"[]\",\"contact\":false,\"paymenttype\":\"\",\"mn\":15,\"sendMail\":false,\"sendToEmail\":\"\",\"sendToName\":\"\"},\"component\":[{\"name\":\"id_section\",\"id\":\"com0\",\"title\":\"\u6d3b\u52a8\u7b80\u4ecb\",\"required\":false,\"instruct\":\"\",\"alignstyle\":\"text-align:left\",\"subtitle\":\"\u4eb2\u7231\u7684\u592a\u4ed3\u670b\u53cb\u4eec\uff0c\u4e5f\u8bb8\u4f60\u4eec\u4e0d\u77e5\u9053\u7b2c\u4e09\u601d\u7ef4\u8fd9\u4e2a\u5f88\u65b0\u5947\u7684\u540d\u79f0\uff0c\u4f46\u662f\u5927\u5bb6\u4e00\u5b9a\u77e5\u9053\u300a\u6700\u5f3a\u5927\u8111\u300b\u8282\u76ee\u5427\uff1f\u5f88\u591a \u4eba\u90fd\u6709\u770b\u8fc7\u5427\uff1f\u770b\u8fc7\u7684\u670b\u53cb\uff0c\u90a3\u5c31\u4e00\u5b9a\u77e5\u9053\u201c\u7a7a\u95f4\u6e38\u4fa0\u201d\u5218\u5065\uff0c\u8fd9\u4f4d\u9760\u7740\u7a7a\u95f4\u8bb0\u5fc6\u529b\u5f81\u670d\u6240\u6709\u4eba\u7684\u82f1\u96c4\u30023 \u670827\u65e5\u665a\u300a\u6700\u5f3a\u5927\u8111\u300b\u4e2d\u56fd\u961fPK\u7f8e\u56fd\u961f\u7684\u8702\u5de2\u6697\u6218\u73af\u8282\uff0c\u5c4f\u5e55\u524d\u7684\u4f60\uff0c\u662f\u5426\u4e5f\u4e00\u6837\u7d27\u5f20\uff0c\u6700\u540e\u5218\u5065\u8001\u5e08\u538b\u5012\u6027&nbsp;\u80dc\u5229\u65f6\uff0c\u771f\u7684\u6fc0\u52a8\u5f97\u5feb\u54ed\u51fa\u6765\u4e86\u5462\u2026\u2026<br><br>\u5927\u5bb6\u60f3\u4e0d\u60f3\u9762\u5bf9\u9762\u4e00\u7779\u5218\u5065\u8001\u5e08\u7684\u98ce\u91c7\u5462\uff1f\u4e0b\u9762\u7684\u8fd9\u4e2a\u6d88\u606f\uff0c\u4f1a\u4e0d\u4f1a\u8ba9\u5927\u5bb6\u6de1\u5b9a\u4e0d\u4e86\u4e86\uff1f\u90a3\u5c31\u662f\u2014\u2014\u5218\u5065\u8001\u5e08\u5728 \u592a\u4ed3\u4eb2\u81ea\u8bb2\u8bfe\u54df~\u800c\u4e14\u662f\u514d\u8d39\u4f53\u9a8c\u8bfe\uff0c\u60a8\u53ef\u4ee5\u5e26\u7740\u5b69\u5b50\u4e00\u8d77\u6765\uff0c\u4e00\u5b9a\u4f1a\u53d7\u76ca\u532a\u6d45\u3002\u56e0\u573a\u5730\u6709\u9650\uff0c\u672c\u6b21\u4f53\u9a8c\u8bfe\u7ed9\u51fa 30\u4e2a\u540d\u989d\uff0c\u60f3\u53c2\u52a0\u7684\u8d76\u7d27\u62a5\u540d\u54e6\u3002\uff08\u4e00\u4e2a\u5b69\u5b50\u7531\u4e00\u4f4d\u5bb6\u957f\u966a\u540c\uff0c\u5bb6\u957f\u4e0d\u5360\u540d\u989d\uff09\"},{\"name\":\"id_section\",\"id\":\"com1\",\"title\":\"\u6d3b\u52a8\u65f6\u95f4\u53ca\u5730\u70b9\",\"required\":false,\"instruct\":\"\",\"alignstyle\":\"text-align:left\",\"subtitle\":\"4\u670812\u65e5\u4e0a\u53488\uff1a30\u7b7e\u5230<br>\u4e0a\u53489\uff1a00~12\uff1a00<br>\u4e0b\u534813\uff1a30~17\uff1a00<br>\u5730\u70b9\uff1a\u592a\u4ed3\u5e02\u79d1\u6559\u65b0\u57ce\u5065\u96c4\u8def20\u53f7\u5927\u5b66\u751f\u79d1\u6280\u56ed11\u680b2\u697c\u4f1a\u8bae\u5ba4\"},{\"name\":\"id_section\",\"id\":\"com2\",\"title\":\"\u8bfe\u7a0b\u5185\u5bb9\u53ca\u62a5\u540d\u8981\u6c42\",\"required\":false,\"instruct\":\"\",\"alignstyle\":\"text-align:left\",\"subtitle\":\"\u9752\u5c11\u5e74\u667a\u6167\u4eba\u624d\u9886\u5bfc\u529b\uff0c\u5982\u4f55\u8ba9\u5b69\u5b50\u638c\u63e1\u5b66\u4e60\u65b9\u6cd5\uff0c\u63d0\u9ad8\u5b66\u4e60\u6210\u7ee9\uff01<br>\u8981\u6c42\uff1a\u5c0f\u5b66\u56db\u5e74\u7ea7\u81f3\u9ad8\u4e8c\u7684\u9752\u5c11\u5e74\uff0c\u9700\u5bb6\u957f\u966a\u540c\"},{\"name\":\"id_section\",\"id\":\"com3\",\"title\":\"\u5176\u4ed6\u4e8b\u9879\",\"required\":false,\"instruct\":\"\",\"alignstyle\":\"text-align:left\",\"subtitle\":\"\u4e2d\u5348\u5348\u996d\u81ea\u7406\uff0c\u82e5\u6709\u9700\u8981\u8ba2\u5348\u9910\u7684\uff0c\u4e00\u4efd20\u5143\uff0c\u8bf7\u4e8e11\u53f7\u4e4b\u524d\u6253\u6b3e\u5230\u652f\u4ed8\u5b9d18995610081\uff08\u5f20\u82b3\uff09\u8d26\u6237\u4e0a\uff0c\u5e76\u6ce8\u660e\u59d3\u540d\uff08\u7531\u6587\u8f69\u9910\u996e\u516c\u53f8\u63d0\u4f9b\u7684\u8425\u517b\u5348\u9910\uff09<br><br>\u8054\u7cfb\u7535\u8bdd\uff1a0512-53722333&nbsp;&nbsp; <br>\u5f20\u8001\u5e08\uff1a18606223377&nbsp;&nbsp;<br>\u6768\u8001\u5e08\uff1a13806245758<br><br>\u8bfe\u7a0b\u7ed3\u675f\u540e\uff0c\u5927\u5bb6\u53ef\u4ee5\u627e\u5218\u5065\u8001\u5e08\u7167\u4e2a\u5408\u5f71\u5566\uff0c\u7b7e\u4e2a\u540d\u5566\u90fd\u53ef\u4ee5\u3002<br>\u7b2c\u4e00\u671f\u7684\u8bfe\u7a0b\u82e5\u662f\u6ca1\u6709\u62a5\u540d\u5230\u7684\u4e5f\u4e0d\u8981\u9057\u61be\u54df\uff0c\u5218\u5065\u8001\u5e08\u4f1a\u5b9a\u671f\u5f00\u514d\u8d39\u4f53\u9a8c\u8bfe\uff0c\u4eb2\u81ea\u7ed9\u5927\u5bb6\u8bb2\u8bfe<br><br>\u672c\u6b21\u6d3b\u52a8\u6307\u5b9a\u4e92\u52a8\u5e73\u53f0\uff1a\u65b0\u592a\u4ed3\u8bba\u575b\uff08www.xintc.cn\uff09\u5927\u5bb6\u4e5f\u53ef\u4ee5\u901a\u8fc7\u8bba\u575b\u7684\u6d3b\u52a8\u8d34\u62a5\u540d\uff01\"},{\"name\":\"id_picture\",\"id\":\"com12\",\"title\":\"\",\"required\":false,\"instruct\":\"\",\"img\":\"http%3A%2F%2Fwww.mikecrm.com%2Fclient%2F0de45dab4e9826fe97af1ac549c08501%2Fform%2Fimage%2Fdcdc554914a9b72e9649fd83241793a2.jpg\",\"imglink\":\"false\",\"alignstyle\":\"text-align:center\",\"pictureshow\":\"normal\",\"subtitle\":\"\u5218\u5065\u8001\u5e08\"},{\"name\":\"id_picture\",\"id\":\"com14\",\"title\":\"\",\"required\":false,\"instruct\":\"\",\"img\":\"http%3A%2F%2Fwww.mikecrm.com%2Fclient%2F0de45dab4e9826fe97af1ac549c08501%2Fform%2Fimage%2F55d1b5d1cb6c9af990598467dcc9f5da.jpg\",\"imglink\":\"false\",\"alignstyle\":\"text-align:center\",\"pictureshow\":\"normal\",\"subtitle\":\"\u5218\u5065\u8001\u5e08\u6388\u8bfe\u4e2d\"},{\"name\":\"basic_name\",\"id\":\"com5\",\"title\":\"\u59d3\u540d\",\"required\":true,\"instruct\":\"\",\"value\":\"\",\"size\":\"input large\"},{\"name\":\"basic_company\",\"id\":\"com15\",\"title\":\"\u5bb6\u957f\u59d3\u540d\",\"required\":false,\"instruct\":\"\",\"value\":\"\",\"size\":\"input medium\"},{\"name\":\"id_singleLine\",\"id\":\"com10\",\"title\":\"\u5b66\u6821\u5e74\u7ea7\",\"required\":false,\"instruct\":\"\",\"value\":\"\",\"size\":\"input medium\"},{\"name\":\"basic_mobile\",\"id\":\"com6\",\"title\":\"\u5bb6\u957f\u624b\u673a\",\"required\":true,\"instruct\":\"\",\"value\":\"\",\"size\":\"input large\"},{\"name\":\"basic_qq\",\"id\":\"com9\",\"title\":\"QQ\",\"required\":false,\"instruct\":\"\",\"value\":\"\",\"size\":\"input medium\"},{\"name\":\"id_singleLine\",\"id\":\"com11\",\"title\":\"\u662f\u5426\u9700\u8981\u5348\u9910\uff0820\u5143\/\u6bcf\u4eba\uff09\",\"required\":true,\"instruct\":\"\",\"value\":\"\",\"size\":\"input medium\"}],\"finishForm\":{\"type\":\"0\",\"value\":\"\"}}","style":"750px,16PX,25PX,d1986e,000000,,left,,fix,5db371,fdfbfa,images\/formTemplate\/img-bmsq-1-0.jpg,FFFFFF,fdfbfa,625345,625345,d3c8c2,625345","publicChart":0,"status":"OK","submitOnce":0,"onlyWechat":0,"client":"43896","openFeedback":0},
+			submitOnce = '0',
+			owc = '0',
+			publicChartEnable = '0',
+			picPath = "client%2F0de45dab4e9826fe97af1ac549c08501%2Fform%2FformQR%2F813ad8c606093d81a815de7f304c2a05.png",
+			preview = false,
+			_share_imgWeixin = "http://www.mikecrm.com/images/logo/weixinShare.png";
+			_shareTimeline_imgWeixin = "http://www.mikecrm.com/images/logo/weixinShareTimeline.png";
+
+
+		// 自定义微信分享内容
+		var _share_desc = "亲爱的太仓朋友们，也许你们不知道第三思维这个很新奇的名称，但是大家一定知道《最强大脑》节目吧？";
+		var __wxConfig__ = {
+			debug: false,
+			appId: 'wxce3f1a51aa60f801',
+			timestamp: '1428040628',
+			nonceStr: 't2D2e3Ovuxq1Cz22',
+			signature: '9865bfb6487b5d383e737ab8991a3769a57802c2',
+			jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo', 'hideOptionMenu', 'showOptionMenu', 'getLocation']
+		},
+		_shareInfo = {
+			title: '《最强大脑》刘健老师全国巡讲 太仓站',
+			desc: _share_desc||"\n麦客CRM\nMikecrm.com",
+			link: 'http://www.mikecrm.com/f.php?t=K0CYaF',
+			imgUrl: _share_imgWeixin
+		};
+		// 注入设置
+		wx.config(__wxConfig__);
+
+		wx.ready(function(){
+			// config succeed function
+			wx.checkJsApi({
+				jsApiList: __wxConfig__.jsApiList,
+				success: function(res) {
+					if(res.errMsg === 'checkJsApi:ok'){
+						wx.onMenuShareTimeline(_shareInfo);
+						wx.onMenuShareAppMessage(_shareInfo);
+						wx.onMenuShareQQ(_shareInfo);
+						wx.onMenuShareWeibo(_shareInfo);
+						wx.showOptionMenu();
+					} else {
+						if(document.addEventListener){
+							document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+								var _old_shareInfo = {
+									"appid": "wxce3f1a51aa60f801",
+									"title": "《最强大脑》刘健老师全国巡讲 太仓站",
+									"link": "http://www.mikecrm.com/f.php?t=K0CYaF",
+									"desc": _share_desc||"\n麦客CRM\nMikecrm.com",
+									"img_url": _share_imgWeixin,
+									"img_width": "640",
+									"img_height": "640"
+								};
+								WeixinJSBridge.on('menu:share:appmessage', function(argv){
+									WeixinJSBridge.invoke('sendAppMessage',_old_shareInfo, function(res) {
+									});
+								});
+								WeixinJSBridge.on('menu:share:timeline', function(argv){
+									WeixinJSBridge.invoke('shareTimeline',_old_shareInfo, function(res) {
+									});
+								});
+								WeixinJSBridge.call('showOptionMenu');
+							},false);
+						}
+					}
+				}
+			});
+		});
+
+		(function () {
+			var UA = window.navigator.userAgent,
+				detectStyle = '<style type="text/css">@media (max-width: 640px) {#MobileDetect {color: rgb(12, 34, 56)}}</style>',
+				detectDiv = '<div id="MobileDetect"></div>',
+				tag = false,
+				style = null,
+				div = null;
+
+			window.isMobile = false;
+			if(preview == 'phone'){
+				UA = "Mobile";
+				window.isMobile = true;
+				loadCss("css/formGlobalMobile");
+				loadCss("css/blue");
+			} else if (/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|WP/.test(UA)) {
+				var style = createElement(detectStyle),
+					div = createElement(detectDiv);
+				document.head.appendChild(style);
+				document.head.appendChild(div);
+				if (getStyle(div, "color") === 'rgb(12, 34, 56)' || /WP|Opera/.test(UA)) {
+					tag = true;
+					window.isMobile = true;
+					loadCss("css/formGlobalMobile");
+					loadCss("css/blue");
+				}
+			}
+			if (!tag) {
+				loadCss("css/formGlobal");
+			}
+			if (style) {
+				style.remove();
+			}
+			if (div) {
+				div.remove();
+			}
+			return true;
+
+			 function getStyle(oElm, strCssRule){
+				var strValue = "";
+				if(document.defaultView && document.defaultView.getComputedStyle){
+					strValue = document.defaultView.getComputedStyle(oElm, "").getPropertyValue(strCssRule);
+				}
+				else if(oElm.currentStyle){
+					strCssRule = strCssRule.replace(/-(w)/g, function (strMatch, p1){
+						return p1.toUpperCase();
+					});
+					strValue = oElm.currentStyle[strCssRule];
+				}
+				return strValue;
+			}
+
+			function loadCss(file) {
+				var head = document.getElementsByTagName('head').item(0);
+				var css = document.createElement('link');
+				css.href = "http://asset.mikecrm.megaintel.com/form/"+file + ".css?v=20150206";
+				css.rel = 'stylesheet';
+				css.type = 'text/css';
+				head.appendChild(css);
+			}
+			function createElement(string) {
+				var elem = document.createElement("div");
+				elem.innerHTML = string;
+				return elem.childNodes[0];
+			}
+		})();
+
+	</script>
+<link href="./《最强大脑》刘健老师全国巡讲 太仓站_files/formGlobal.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+html {
+	background-color: #d1986e;
+	color: #333333;
+	background-position: left top;
+}
+.fs_main {
+	width: 750px
+}
+.fs_cTitle {
+	font-size: 16PX;
+	line-height: 25PX;
+}
+.fs_content {
+	font-size: 14px;
+}
+@media screen and (max-width:750px) {
+div.fs_main {
+	width: 100%;
+}
+}
+div.f_share {
+	left: 750px
+}
+div.f_share_main {
+	width: 750px
+}
+@media screen and (max-width:972px) {
+div.f_share {
+	display: none;
+}
+}
+.fs_fixbackground {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.fs_cValidate {
+	color: #625345;
+}
+.fs_cDescribe a, .fs_cDescribe a:visited {
+	color: #625345
+}
+.fs_cDescribe, .fs_cLink, .fs_cLink:visited {
+	color: #625345
+}
+.fs_cExtraDescribe {
+	color: #625345
+}
+.fs_sectionDescribe, .fs_imgDescribe {
+	color: #625345
+}
+.fs_component {
+	background-color: #d3c8c2;
+	color: #625345
+}
+.fs_header {
+	background-color: #5db371;
+	color: #fdfbfa;
+}
+.fs_main {
+	background-color: #fdfbfa;
+	color: #625345;
+}
+.fs_submitBtn {
+	background-color: #5db371;
+	color: #fff;
+	box-shadow: 0 2px 4px -2px #78c98a;
+}
+.fs_submitBtn:hover {
+	background-color: #78c98a
+}
+.f_chartViewBtn {
+	color: #fff;
+	background-color: #5db371;
+}
+.f_chartViewBtn:active {
+	color: #fff
+}
+.f_chartViewBtn:visited {
+	color: #fff;
+}
+.f_chartViewBtn:hover {
+	background-color: #78c98a;
+}
+.f_copyright .fs_powerby {
+	color: #EEE;
+}
+.Zebra_DatePicker td.dp_selected {
+	background-color: #5db371;
+	color: #fff;
+}
+.Zebra_DatePicker td.dp_current {
+	color: #78c98a
+}
+</style>
+</head>
+<body>
+<img src="http://7xic0d.com1.z0.glb.clouddn.com/img-bmsq-1-0.jpg" class="fs_fixbackground">
+<div class="f_wrapper fs_wrapper">
+  <div class="f_main fs_main">
+    <div class="f_header fs_header">
+      <h2 class="f_title fs_title">《最强大脑》刘健老师全国巡讲 太仓站</h2>
+      <p class="f_describe fs_describe">亲爱的太仓朋友们，也许你们不知道第三思维这个很新奇的名称，但是大家一定知道《最强大脑》节目吧？</p>
+    </div>
+    <div class="f_share_container">
+      <div class="f_share_main">
+        <div class="f_share" style="overflow: hidden; width: 30px;"><img src="http://7xic0d.com1.z0.glb.clouddn.com/qrcodeIcon.png" class="qrcode"><span class="share_info">分享-二维码</span></div>
+      </div>
+    </div>
+    <div class="f_body fs_body">
+      <div class="f_component" com-name="id_section" name="com0" serialnum="0">
+        <p class="f_cTitle fs_cTitle">活动简介</p>
+        <p class="f_sectionDescribe fs_sectionDescribe" style="text-align:left">亲爱的太仓朋友们，也许你们不知道第三思维这个很新奇的名称，但是大家一定知道《最强大脑》节目吧？很多 人都有看过吧？看过的朋友，那就一定知道“空间游侠”刘健，这位靠着空间记忆力征服所有人的英雄。3 月27日晚《最强大脑》中国队PK美国队的蜂巢暗战环节，屏幕前的你，是否也一样紧张，最后刘健老师压倒性 胜利时，真的激动得快哭出来了呢……<br>
+          <br>
+          大家想不想面对面一睹刘健老师的风采呢？下面的这个消息，会不会让大家淡定不了了？那就是——刘健老师在 太仓亲自讲课哟~而且是免费体验课，您可以带着孩子一起来，一定会受益匪浅。因场地有限，本次体验课给出 30个名额，想参加的赶紧报名哦。（一个孩子由一位家长陪同，家长不占名额）</p>
+      </div>
+      <div class="f_component" com-name="id_section" name="com1" serialnum="1">
+        <p class="f_cTitle fs_cTitle">活动时间及地点</p>
+        <p class="f_sectionDescribe fs_sectionDescribe" style="text-align:left">4月12日上午8：30签到<br>
+          上午9：00~12：00<br>
+          下午13：30~17：00<br>
+          地点：太仓市科教新城健雄路20号大学生科技园11栋2楼会议室</p>
+      </div>
+      <div class="f_component" com-name="id_section" name="com2" serialnum="2">
+        <p class="f_cTitle fs_cTitle">课程内容及报名要求</p>
+        <p class="f_sectionDescribe fs_sectionDescribe" style="text-align:left">青少年智慧人才领导力，如何让孩子掌握学习方法，提高学习成绩！<br>
+          要求：小学四年级至高二的青少年，需家长陪同</p>
+      </div>
+      <div class="f_component" com-name="id_section" name="com3" serialnum="3">
+        <p class="f_cTitle fs_cTitle">其他事项</p>
+        <p class="f_sectionDescribe fs_sectionDescribe" style="text-align:left">中午午饭自理，若有需要订午餐的，一份20元，请于11号之前打款到支付宝18995610081（张芳）账户上，并注明姓名（由文轩餐饮公司提供的营养午餐）<br>
+          <br>
+          联系电话：0512-53722333 &nbsp;&nbsp;<br>
+          张老师：18606223377 &nbsp;<br>
+          杨老师：13806245758<br>
+          <br>
+          课程结束后，大家可以找刘健老师照个合影啦，签个名啦都可以。<br>
+          第一期的课程若是没有报名到的也不要遗憾哟，刘健老师会定期开免费体验课，亲自给大家讲课<br>
+          <br>
+          本次活动指定互动平台：新太仓论坛（www.xintc.cn）大家也可以通过论坛的活动贴报名！</p>
+      </div>
+      <div class="f_component" com-name="id_picture" name="com12" serialnum="4"><a class="f_pictureImg" style="cursor:default;text-align:center;"><img src="http://7xic0d.com1.z0.glb.clouddn.com/dcdc554914a9b72e9649fd83241793a2.jpg" border="none" style="width:100%"></a>
+        <p class="f_imgDescribe fs_imgDescribe" style="text-align:center">刘健老师</p>
+      </div>
+      <div class="f_component" com-name="id_picture" name="com14" serialnum="5"><a class="f_pictureImg" style="cursor:default;text-align:center;"><img src="http://7xic0d.com1.z0.glb.clouddn.com/55d1b5d1cb6c9af990598467dcc9f5da.jpg" border="none" style="width:100%"></a>
+        <p class="f_imgDescribe fs_imgDescribe" style="text-align:center">刘健老师授课中</p>
+      </div>
+      <form action="/" method="post">
+      <div class="f_component" com-name="basic_company" name="com15" serialnum="7">
+        <p class="f_cTitle fs_cTitle">家长姓名</p>
+        <input type="text" nane="parent" class="input medium fs_content fs_input" value="">
+      </div>
+      <div class="f_component" com-name="id_singleLine" name="com10" serialnum="8">
+        <p class="f_cTitle fs_cTitle">联系电话</p>
+        <input type="text" nane="phone" class="input medium fs_content fs_input" value="">
+      </div>
+       <div class="f_component" com-name="basic_qq" name="com9" serialnum="10">
+        <p class="f_cTitle fs_cTitle">微信</p>
+        <input type="text" name="weixin" class="input medium fs_content fs_input" value="">
+      </div>
+      
+		<div class="f_component" com-name="basic_qq" name="com9" serialnum="10">
+        <p class="f_cTitle fs_cTitle">お子さまの学年*</p>
+        <input type='radio' name='study' value='年少' />&nbsp;年少
+        <input type='radio' name='study' value='年中'  />&nbsp;年中
+        <input type='radio' name='study' value='年長' />&nbsp;年長<br><br>
+        <input type='radio' name='study' value='小学1年生'  />&nbsp;小学1年生
+        <input type='radio' name='study' value='小学2年生'  />&nbsp;小学2年生
+        <input type='radio' name='study' value='小学3年生'  />&nbsp;小学3年生
+        <input type='radio' name='study' value='小学4年生'  />&nbsp;小学4年生
+        <input type='radio' name='study' value='小学5年生'  />&nbsp;小学5年生
+        <input type='radio' name='study' value='小学6年生'  />&nbsp;小学6年生<br><br>
+        <input type='radio' name='study' value='中学1年生'  />&nbsp;中学1年生
+        <input type='radio' name='study' value='中学2年生'  />&nbsp;中学2年生
+        <input type='radio' name='study' value='中学3年生'  />&nbsp;中学3年生<br><br>
+        <input type='radio' name='study' value='上記以外の学年'  />&nbsp;上記以外の学年
+      </div>
+      
+
+      
+      
+      <div class="f_error"></div>
+      <div class="f_submit"><input type="submit" value="提交" class="fs_submitBtn "/></div>
+    </div>
+  </div>
+  <div class="f_copyright"><a class="f_powerby fs_powerby" href="http://www.mikecrm.com/?ref=form" target="_blank">由麦客提供技术支持</a></div>
+</div>
+<div style="display:none;"> <img src="http://7xic0d.com1.z0.glb.clouddn.com/weixinShare@1x.png"> </div>
+
+<!-- 表单头的模板 --> 
+<script type="text/x-mktemplate" id="fs_header_template">
+	<div class="f_header fs_header">
+		{{?formTemplate.logo&&formTemplate.logo!=="false"}}
+		<div class="f_logo">
+			<img class="f_logoImg" src="{{=decodeURIComponent(formTemplate.logo)}}">
+		</div>
+		<div class="f_text">
+		{{?}}
+		<h2 class="f_title fs_title">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}</h2>
+		<p class="f_describe fs_describe">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.subtitle))}}</p>
+		{{?formTemplate.logo}}
+		</div>
+		<div class="clearB"></div>
+		{{?}}
+	</div>
+</script> 
+
+<!-- 表单分享的模板 --> 
+<script type="text/x-mktemplate" id="fs_header_share">
+	<div class="f_share_container">
+		<div class="f_share_main">
+			<div class="f_share"><img src="images/icon/qrcodeIcon.png" class="qrcode"/><span class="share_info">分享-二维码</span></div>
+		</div>
+	</div>
+</script> 
+<!-- 表单单行文本输入框模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_singleline">
+	<div class="f_component" com-name="{{=formTemplate.name}}" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<input type="text" class="{{=formTemplate.size}} fs_content fs_input" value="{{=formTemplate.value||''}}"/>
+	</div>
+</script> 
+
+<!-- 表单微信模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_wx">
+	<div class="f_component" com-name="basic_weixin" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<input type="text" class="{{=formTemplate.size}} fs_content fs_input fs_weixin" value="{{=formTemplate.value||''}}"><a href="#" class="fs_weixin_info_btn">获取信息</a>
+		<div class="clearB"></div>
+	</div>
+</script> 
+
+<!-- 表单数字输入框模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_number">
+	<div class="f_component" com-name="id_number" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}<span class="f_cValidate fs_cValidate">{{?formTemplate.required}}*{{?}}[请输入数字]</span></p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<input type="text" class="{{=formTemplate.size}} number fs_content fs_input" value="{{=formTemplate.value}}"/>
+	</div>
+</script> 
+<!-- 表单多行文本输入框模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_multiple">
+	<div class="f_component" com-name="id_multiple" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<textarea class="{{=formTemplate.size}} fs_content fs_input">{{=formTemplate.value||''}}</textarea>
+	</div>
+</script> 
+<!-- 表单多选框模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_checkbox">
+	<div class="f_component" com-name="id_checkBox" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required||formTemplate.limithint}}<span class="f_cValidate fs_cValidate">{{?formTemplate.required}}*{{?}}{{=formTemplate.limithint}}</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<ul class="f_optionGarden layout-{{?formTemplate.layout}}{{=formTemplate.layout}}{{??}}single{{?}}">
+			{{~formTemplate.value:option:index}}
+			<li class="f_optionsLi {{?option.input}}f_otherLi{{?}}{{?index%formTemplate.layoutNum == 0}} clearB{{?}}">
+				<input class="f_optionBtn" type="checkbox" name="checkbox-{{=formTemplate.id}}" id="checkbox-id-{{=formTemplate.serialNum}}-{{=index}}" value="{{=index}}" {{?isMobile}}style="display:none;"{{?}} {{?option.selected}}checked="checked"{{?}}>
+				{{?window.isMobile}}
+				<ins class="icheckbox_square-blue {{?option.selected}}checked{{?}}"></ins>
+				{{?}}
+				{{?!option.input}}
+				<label class="f_optionVal fs_content" for="checkbox-id-{{=formTemplate.serialNum}}-{{=index}}">{{=mk_string.escapeHTML(mk_string.unescapeHTML(option.name))}}</label>
+				{{??}}
+				<label class="f_optionVal fs_content f_other" for="checkbox-id-{{=formTemplate.serialNum}}-{{=index}}">其它：<input type="text" class="f_otherinput" value="{{=option.name||''}}"></label>
+				{{?}}
+			</li>
+			{{~}}
+			<li class="clearB"></li>
+		</ul>
+	</div>
+</script> 
+<!-- 表单单选框模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_radio">
+	<div class="f_component" com-name="id_radio" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<ul class="f_optionGarden layout-{{?formTemplate.layout}}{{=formTemplate.layout}}{{??}}single{{?}}">
+			{{~formTemplate.value:option:index}}
+			{{?option.input}}
+			<li class="clearB"></li>
+			{{?}}
+			<li class="f_optionsLi {{?option.input}}f_otherLi{{?}}{{?index%formTemplate.layoutNum == 0}} clearB{{?}}">
+				<input class="f_optionBtn" type="radio" name="radio-{{=formTemplate.id}}" id="radio-id-{{=formTemplate.serialNum}}-{{=index}}" value="{{=index}}" {{?isMobile}}style="display:none;"{{?}} {{?option.selected}}checked="checked"{{?}}>
+				{{?window.isMobile}}
+				<ins class="iradio_square-blue {{?option.selected}}checked{{?}}"></ins>
+				{{?}}
+				{{?!option.input}}
+
+				<label class="f_optionVal fs_content" for="radio-id-{{=formTemplate.serialNum}}-{{=index}}">{{=mk_string.escapeHTML(mk_string.unescapeHTML(option.name))}}</label>
+				{{??}}
+
+				<label class="f_optionVal fs_content f_other" for="radio-id-{{=formTemplate.serialNum}}-{{=index}}">其它：<input type="text" class="f_otherinput" value="{{=option.name||''}}"></label>
+				{{?}}
+			</li>
+
+
+			{{~}}
+			<li class="clearB"></li>
+		</ul>
+	</div>
+</script> 
+<!-- 表单性别模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_gender">
+	<div class="f_component" com-name="basic_gender" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<ul class="f_optionGarden layout-{{?formTemplate.layout}}{{=formTemplate.layout}}{{??}}single{{?}}">
+			{{~formTemplate.value:option:index}}
+			<li class="f_optionsLi">
+				<input class="f_optionBtn" type="radio" name="radio-{{=formTemplate.id}}" id="radio-id-{{=formTemplate.serialNum}}-{{=index}}" value="{{=index}}" gendervalue="{{=option.gendervalue}}" {{?isMobile}}style="display:none;"{{?}} {{?option.selected}}checked="checked"{{?}}>
+				{{?window.isMobile}}
+				<ins class="iradio_square-blue {{?option.selected}}checked{{?}}"></ins>
+				{{?}}
+				<label class="f_optionVal fs_content" for="radio-id-{{=formTemplate.serialNum}}-{{=index}}">{{=mk_string.escapeHTML(mk_string.unescapeHTML(option.showName))}}</label>
+			</li>
+			{{~}}
+			<li class="clearB"></li>
+		</ul>
+	</div>
+</script> 
+<!-- 表单下拉菜单模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_select">
+	<div class="f_component" com-name="id_dropDown" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<div class="f_select medium">
+			<select class="insideSelect fs_content fs_input">
+				{{~formTemplate.value:option:index}}
+				<option name="{{=index}}" {{?option.selected}}selected="selected"{{?}}>
+				{{?option.input}}
+					其它
+				{{??}}
+					{{=mk_string.escapeHTML(mk_string.unescapeHTML(option.name))}}
+				{{?}}</option>
+				{{~}}
+			</select>
+		</div>
+
+	</div>
+</script> 
+<!-- 表单附件模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_fileUpload">
+	<div class="f_component" com-name="id_fileUpload" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		{{?formTemplate.filetype}}
+		<p class="f_cExtraDescribe fs_cExtraDescribe">支持 {{=formTemplate.filetype.join(', ')}}</p>
+		{{?}}
+		{{?window.isMobile}}
+		<p class="f_cExtraDescribe fs_cExtraDescribe">部分手机可能无法上传附件，请在电脑上重试</p>
+		{{?}}
+		<div class="f_uploadFile medium">
+			<input type="file" size="1" class="upload_input fs_content" name="_FILE_" data-url="handler/handleUploadFormFile.php">
+			<div class="upload_progress"></div>
+			<span class="upload_text fs_content">请选择小于20M文件进行上传</span>
+			<img class="upload_img" src="images/icon/importFileAdd.png">
+			<div class="clearB"></div>
+		</div>
+	</div>
+</script> 
+<!-- 表单日期模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_date">
+	<div class="f_component" com-name="{{=formTemplate.name}}" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}<span class="f_cValidate fs_cValidate">{{?formTemplate.required}}*{{?}}{{?!window.isMobile}}{{?formTemplate.dateType!=='md'}}[输入 2014-1{{?formTemplate.dateType=='d'}}-1{{?}} 格式的日期]{{?}}{{?}}</span></p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<input type="text" class="date {{=formTemplate.size||'medium'}} fs_content" datetype="{{=formTemplate.dateType}}" value="{{=formTemplate.value||''}}"/>
+	</div>
+</script> 
+<!-- 表单分割线模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_section">
+	<div class="f_component" com-name="id_section" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}</p>
+		<p class="f_sectionDescribe fs_sectionDescribe" style="{{=formTemplate.alignstyle}}">{{=mkMarkEval(formTemplate.subtitle)}}</p>
+	</div>
+</script> 
+<!-- 表单分页模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_page">
+	<div class="f_component" com-name="id_section" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}">
+	</div>
+</script> 
+<!-- 表单评分模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_star">
+	<div class="f_component" com-name="id_star" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<div class="starGroup" starselected="0">
+			{{for(var sg=0;sg<formTemplate.star;sg++){}}
+			<span class="star" {{?sg<formTemplate.selected}}style="background-position:0% 100%;"{{?}}></span>
+			{{}}}
+		</div>
+	</div>
+</script> 
+<!-- 表单商品组件模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_shop">
+	<div class="f_component" com-name="id_shopping" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<ul class="f_shoppingList">
+			{{~formTemplate.value:item:index}}
+			<li class="f_shoppingItem {{?item.pic}}has-pic{{?}} {{?index%(formTemplate.lineNum||3)==0}}clearB{{?}}" itemid="{{=index}}" {{?item.uid}}uid="{{=item.uid}}"{{?}}>
+				{{?item.pic}}
+				<a class="shopItem_img" {{?item.link}} href="{{=item.link}}" target="_blank"{{?}}>
+					<img src="{{=item.pic}}" alt="">
+				</a>
+				{{?}}
+				<p class="shopItem_name fs_content" title="{{=mk_string.escapeHTML(mk_string.unescapeHTML(item.name))}}">{{=mk_string.escapeHTML(mk_string.unescapeHTML(item.name))}}</p>
+				<p class="shopItem_select">
+					<span class="shopItem_remove">-</span>
+					<input class="shopItem_num" value="{{=(item.quantity||0)}}" {{?window.isMobile}}readonly="readonly"{{?}}>
+					<span class="shopItem_add">+</span>
+					<span class="shopItem_price">{{=formTemplate.currencyUnit}}{{=item.price}}</span>
+				</p>
+			</li>
+			{{~}}
+			<li class="clearB"></li>
+		</ul>
+	</div>
+</script> 
+<!-- 表单图片组件模板 --> 
+<script type="text/x-mktemplate" id="fs_body_component_picture">
+	<div class="f_component" com-name="id_picture" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<a class="f_pictureImg" {{?formTemplate.imglink&&formTemplate.imglink!=="false"}}target="_blank" href="{{=formTemplate.imglink}}" style="text-align:center;"{{??}}style="cursor:default;text-align:center;"{{?}}>
+			<img src="{{=decodeURIComponent(formTemplate.img)}}" border="none" style="{{=formTemplate.pictureshow}}">
+		</a>
+		<p class="f_imgDescribe fs_imgDescribe" style="{{=formTemplate.alignstyle}}">{{=mkMarkEval(formTemplate.subtitle)}}</p>
+	</div>
+</script> 
+<!-- 表单多选图片组件模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_pic_checkbox">
+	<div class="f_component" com-name="id_pictureCheckbox" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required||formTemplate.limithint}}<span class="f_cValidate fs_cValidate">{{?formTemplate.required}}*{{?}}{{=formTemplate.limithint}}</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<ul class="f_spictureList">
+			{{~formTemplate.value:option:index}}
+			<li class="f_spictureItem {{?option.img}}has-pic{{?}} {{?index%3==0}}clearB{{?}}" itemid="{{=index}}">
+				<label class="f_spictureLabel" for="checkbox-id-{{=formTemplate.serialNum}}-{{=index}}">
+					{{?option.img}}
+						<a class="spictureItem_img">
+							<img src="{{=decodeURIComponent(option.img)}}" alt="">
+						</a>
+					{{?}}
+					<div class="picselect_contect">
+						<input class="f_optionBtn" type="checkbox" name="checkbox-{{=formTemplate.id}}" id="checkbox-id-{{=formTemplate.serialNum}}-{{=index}}" value="{{=index}}" {{?isMobile}}style="display:none;"{{?}} {{?option.selected}}checked="checked"{{?}}>
+						{{?window.isMobile}}
+						<ins class="icheckbox_square-blue {{?option.selected}}checked{{?}}"></ins>
+						{{?}}
+
+						<label class="f_optionVal fs_content" for="checkbox-id-{{=formTemplate.serialNum}}-{{=index}}">{{=mk_string.escapeHTML(mk_string.unescapeHTML(option.name))}}</label>
+					</div>
+				</label>
+			</li>
+			{{~}}
+			<li class="clearB"></li>
+		</ul>
+	</div>
+</script> 
+<!-- 表单单选图片组件模版 --> 
+<script type="text/x-mktemplate" id="fs_body_component_pic_radio">
+	<div class="f_component" com-name="id_pictureRadio" name="{{=formTemplate.id}}" serialnum="{{=formTemplate.serialNum}}"{{?formTemplate.need===false}} style="display:none"{{?}}>
+		<p class="f_cTitle fs_cTitle">{{=mk_string.escapeHTML(mk_string.unescapeHTML(formTemplate.title))}}{{?formTemplate.required}}<span class="f_cValidate fs_cValidate">*</span>{{?}}</p>
+		{{?formTemplate.instruct}}
+		<p class="f_cDescribe fs_cDescribe">{{=mkMarkEval(formTemplate.instruct)}}</p>
+		{{?}}
+		<ul class="f_spictureList">
+			{{~formTemplate.value:option:index}}
+			<li class="f_spictureItem {{?option.img}}has-pic{{?}} {{?index%3==0}}clearB{{?}}" itemid="{{=index}}">
+				<label class="f_spictureLabel" for="radio-id-{{=formTemplate.serialNum}}-{{=index}}">
+					{{?option.img}}
+						<a class="spictureItem_img">
+							<img src="{{=decodeURIComponent(option.img)}}" alt="">
+						</a>
+					{{?}}
+					<div class="picselect_contect">
+						<input class="f_optionBtn" type="radio" name="radio-{{=formTemplate.id}}" id="radio-id-{{=formTemplate.serialNum}}-{{=index}}" value="{{=index}}" {{?isMobile}}style="display:none;"{{?}} {{?option.selected}}checked="checked"{{?}}>
+						{{?window.isMobile}}
+						<ins class="iradio_square-blue {{?option.selected}}checked{{?}}"></ins>
+						{{?}}
+
+						<label class="f_optionVal fs_content" for="radio-id-{{=formTemplate.serialNum}}-{{=index}}">{{=mk_string.escapeHTML(mk_string.unescapeHTML(option.name))}}</label>
+					</div>
+				</label>
+			</li>
+			{{~}}
+			<li class="clearB"></li>
+		</ul>
+	</div>
+</script> 
+<!-- 表单 提交按钮 --> 
+<script type="text/x-mktemplate" id="fs_body_submit">
+	<div class="f_error"></div>
+	<div class="f_submit">
+		{{?!preview}}
+		<a class="f_submitBtn fs_submitBtn validate_submit">{{=formTemplate.submit}}</a>
+		{{??}}
+		<a class="fs_submitBtn validate_submit" style="cursor:default;display:inline-block;line-height:28px;padding:0 20px;font-size:13px;text-align:center;color:#969696;background:#EBEBEB;border-radius2px;">预览模式下不能提交</a>
+		{{?}}
+	</div>
+</script> 
+<!-- 表单 分页 --> 
+<script type="text/x-mktemplate" id="fs_body_page_btn">
+	<div class="f_error"></div>
+	<div class="f_page">
+		<a class="f_pageBtn f_pagePrev fs_submitBtn"> 上一页 </a>
+		<a class="f_pageBtn f_pageNext fs_submitBtn"> 下一页 </a>
+		{{?!preview}}
+		<a class="f_submitBtn fs_submitBtn validate_submit fs_disable">{{=formTemplate.submit}}</a>
+		{{??}}
+		<a class="fs_submitBtn validate_submit fs_disable" style="cursor:default;;line-height:28px;padding:0 20px;font-size:13px;text-align:center;color:#969696;background:#EBEBEB;border-radius2px;">预览模式下不能提交</a>
+		{{?}}
+	</div>
+</script>
+<div class="popwin_weixinshare" style="display:none">
+  <div class="popwin_content" style="margin-top:0;"> 
+    <!--
+			<a class="popwin_confirm">确定</a> --> 
+  </div>
+</div>
+<div class="popwin_productpay" style="display:none">
+  <p class="popwin_title">确认商品信息</p>
+  <div class="popwin_content" style="margin-top:0;">
+    <div class="popwin_tips"></div>
+    <p class="popwin_total"></p>
+    <a class="popwin_button_pay popwin_confirm_payinfo">前往支付宝支付</a> </div>
+</div>
+<!--[if lt IE 9]>
+		<script src="http://asset.mikecrm.megaintel.com/form/js/json2.js?v=0"></script>
+	<![endif]--> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/jquery-1.8.2.min.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/modernizr.custom.49256.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/mkTemplate.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/pinyin.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/mgTextWidth.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/tinybox.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/zebra_datepicker.min.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/mk-form.min.js"></script> 
+<script type="text/javascript">
+		(function(){
+			 var opts = {
+				title: "《最强大脑》刘健老师全国巡讲 太仓站",
+				desc: _share_desc||"\n麦客CRM\nMikecrm.com",
+				img: _share_imgWeixin,
+				callback: function(re) {
+				}
+			};
+			if (typeof wsqOpenApp == 'undefined') {
+				if(document.addEventListener){
+					document.addEventListener('wsqOpenAppReady', function(e) {
+						var counter = 0;
+						wsqOpenApp.initShare(opts);
+					}, false);
+				}
+			} else {
+				var counter = 0;
+				 wsqOpenApp.initShare(opts);
+			}
+		})();
+	</script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/jquery.ui.widget.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/jquery.iframe-transport.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/jquery.fileupload.js"></script> 
+<script src="./《最强大脑》刘健老师全国巡讲 太仓站_files/jquery.xdr-transport.js"></script>
+</body>
+</html>
