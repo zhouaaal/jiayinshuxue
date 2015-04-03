@@ -20,15 +20,15 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var Info = AV.Object.extend('Info');
+var Visitor = AV.Object.extend('Visitor');
 function renderIndex(res, parent){
-	var query = new AV.Query(Info);
+	var query = new AV.Query(Visitor);
 	query.skip(0);
-	query.limit(10);
+	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ parent: parent, infos: results});
+			res.render('index',{ parent: parent, visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -38,13 +38,13 @@ function renderIndex(res, parent){
 }
 
 function renderQuery(res,parent,phone,weixin,study){
-	var query = new AV.Query(Info);
+	var query = new AV.Query(Visitor);
 	query.skip(0);
-	query.limit(10);
+	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ parent:parent, phone:phone, weixin:weixin, study:study, infos: results});
+			res.render('query',{ parent: parent,phone:phone, weixin:weixin,study:study,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -53,14 +53,14 @@ function renderQuery(res,parent,phone,weixin,study){
 	});
 }
 
-function renderSuccess(res,parent,phone,weinxin,study){
-	var query = new AV.Query(Info);
+function renderSuccess(res,parent,phone,weixin,study){
+	var query = new AV.Query(Visitor);
 	query.skip(0);
-	query.limit(10);
+	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ parent:parent,phone:phone,weinxin:weinxin,study:study,infos: results});
+			res.render('success',{ parent: parent,phone:phone, weixin:weixin,study:study,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -73,7 +73,7 @@ app.get('/query',function(req,res){
 	var parent=req.query.parent;
 	var phone=req.query.phone;
 	var weixin=req.query.weixin;
-	var study=req.quert.study;
+	var study=req.query.study;
 	renderQuery(res,parent,phone,weixin,study);
 });
 
@@ -84,24 +84,24 @@ app.get('/', function(req, res){
 	renderIndex(res, parent);
 });
 
-app.get('/info',function(req,res){
+app.get('/vote',function(req,res){
 			
 });
 
 app.post('/',function(req, res){
 	var parent = req.body.parent;
-	var phone = req.body.phone;
-	var weixin = req.body.weixin;
-	var study = req.body.study;
+	var phone=req.body.phone;
+	var weixin=req.body.weixin;
+	var study=req.body.study;
 	if(parent && parent.trim() !=''){
 		//Save visitor
-		var info = new Info();
-		info.set('parent', parent);
-		info.set('phone', phone);
-		info.set('weixin', weixin);
-		info.set('study', study);
-		
-		info.save(null, {
+		var visitor = new Visitor();
+		visitor.set('parent', parent);
+		visitor.set('phone', phone);
+		visitor.set('weixin', weixin);
+		visitor.set('study', study);
+	
+		visitor.save(null, {
 			success: function(gameScore) {
 				renderSuccess(res,parent,phone,weixin,study);
 			},
