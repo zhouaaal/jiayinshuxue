@@ -20,15 +20,15 @@ app.get('/hello', function(req, res) {
 	res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-var Vote = AV.Object.extend('Vote');
+var Info = AV.Object.extend('Info');
 function renderIndex(res, name){
-	var query = new AV.Query(Vote);
+	var query = new AV.Query(Info);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ name: name, votes: results});
+			res.render('index',{ parent: parent, votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -37,14 +37,14 @@ function renderIndex(res, name){
 	});
 }
 
-function renderQuery(res,name,number,count){
-	var query = new AV.Query(Vote);
+function renderQuery(res,parent,phone,weixin,study){
+	var query = new AV.Query(Info);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ name: name,number:number, count:count,votes: results});
+			res.render('query',{ parent:parent, phone:phone, weixin:weixin, study:study, infos: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -53,14 +53,14 @@ function renderQuery(res,name,number,count){
 	});
 }
 
-function renderSuccess(res,name,number,count){
-	var query = new AV.Query(Vote);
+function renderSuccess(res,parent,phone,weinxin,study){
+	var query = new AV.Query(Info);
 	query.skip(0);
 	query.limit(10);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ name: name,number:number, count:count,votes: results});
+			res.render('success',{ parent:parent,phone:phone,weinxin:weinxin,study:study,votes: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -73,7 +73,7 @@ app.get('/query',function(req,res){
 	var name=req.query.name;
 	var number=req.query.number;
 	var count=req.query.count;
-	renderQuery(res,name,number,count);
+	renderQuery(res,parent,phone,weixin,study);
 });
 
 app.get('/', function(req, res){
@@ -88,15 +88,21 @@ app.get('/vote',function(req,res){
 });
 
 app.post('/',function(req, res){
-	var pid = req.body.pid
-
-	if(true){
+	var parent = req.body.parent;
+	var phone=req.body.phone;
+	var weixin=req.body.weixin;
+	var study=req.body.study;
+	if(name && name.trim() !=''){
 		//Save visitor
-				
-		vote.set('count', vote.query.count+1);
-		vote.save(null, {
+		var info = new Info();
+		info.set('parent', parent);
+		info.set('phone', phone);
+		info.set('weixin', weixin);
+		info.set('study', study);
+		
+		visitor.save(null, {
 			success: function(gameScore) {
-				res.redirect('/');
+				renderSuccess(res,parent,phone,weixin,study);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
