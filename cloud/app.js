@@ -70,17 +70,18 @@ function renderSuccess(res,parent,phone,weinxin,study){
 }
 
 app.get('/query',function(req,res){
-	var name=req.query.name;
-	var number=req.query.number;
-	var count=req.query.count;
+	var parent=req.query.parent;
+	var phone=req.query.phone;
+	var weixin=req.query.weixin;
+	var study=req.quert.study;
 	renderQuery(res,parent,phone,weixin,study);
 });
 
 app.get('/', function(req, res){
-	var name = req.query.name;
-	if(!name)
-		name = 'AVOS Cloud';
-	renderIndex(res, name);
+	var parent = req.query.parent;
+	if(!parent)
+		parent = 'AVOS Cloud';
+	renderIndex(res, parent);
 });
 
 app.get('/vote',function(req,res){
@@ -92,7 +93,7 @@ app.post('/',function(req, res){
 	var phone=req.body.phone;
 	var weixin=req.body.weixin;
 	var study=req.body.study;
-	if(name && name.trim() !=''){
+	if(parent && parent.trim() !=''){
 		//Save visitor
 		var info = new Info();
 		info.set('parent', parent);
