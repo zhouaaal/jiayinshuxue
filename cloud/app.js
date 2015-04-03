@@ -21,7 +21,7 @@ app.get('/hello', function(req, res) {
 });
 
 var Info = AV.Object.extend('Info');
-function renderIndex(res, name){
+function renderIndex(res, parent){
 	var query = new AV.Query(Info);
 	query.skip(0);
 	query.limit(10);
