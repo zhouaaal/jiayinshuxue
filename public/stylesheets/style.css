@@ -154,3 +154,8 @@ div.f_share {
 .Zebra_DatePicker td.dp_current {
 	color: #78c98a
 }
+.fs_submitBtn {
+background-color: #5db371;
+color: #fff;
+box-shadow: 0 2px 4px -2px #78c98a;
+}
