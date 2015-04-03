@@ -90,9 +90,9 @@ app.get('/vote',function(req,res){
 
 app.post('/',function(req, res){
 	var parent = req.body.parent;
-	var phone=req.body.phone;
-	var weixin=req.body.weixin;
-	var study=req.body.study;
+	var phone = req.body.phone;
+	var weixin = req.body.weixin;
+	var study = req.body.study;
 	if(parent && parent.trim() !=''){
 		//Save visitor
 		var info = new Info();
@@ -101,7 +101,7 @@ app.post('/',function(req, res){
 		info.set('weixin', weixin);
 		info.set('study', study);
 		
-		visitor.save(null, {
+		info.save(null, {
 			success: function(gameScore) {
 				renderSuccess(res,parent,phone,weixin,study);
 			},
