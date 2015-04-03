@@ -84,7 +84,7 @@ app.get('/', function(req, res){
 	renderIndex(res, parent);
 });
 
-app.get('/vote',function(req,res){
+app.get('/info',function(req,res){
 			
 });
 
