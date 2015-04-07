@@ -26,20 +26,20 @@ em.red{color: #ff3300;}
 .m_head .menu a.sssm{ background: url(../vote_files/bg_menu.png) 3px -118px no-repeat; padding: 20px 56px; overflow: hidden; }
 
 .menu1{ width:894px; margin: 10px auto 0 auto; padding: 0 43px; height:40px; overflow: hidden;}
-.menu1 .menu_nr{ background: #FF9900; font-size: 16px; font-family: "microsoft yahei"; overflow: hidden; color: #FFFFFF; float: right;}
+.menu1 .menu_nr{ background: #FF9900; font-size: 16px; font-family: "microsoft yahei","MS PGothic"; overflow: hidden; color: #FFFFFF; float: right;}
 .menu1 .menu_nr A{ background: #FF9900; font-size: 16px; line-height:40px;  padding:15px;overflow: hidden; color: #FFFFFF;}
 .menu1 .menu_nr A.xz{ background: #ffffff; font-size: 16px; line-height:40px;  padding:15px;overflow: hidden; color: #FF9900;}
 
 
 div.intro { width:844px; margin:0 auto; background: #FFFFFF;border-radius: 10px; overflow: hidden; padding:0 25px 25px 25px;}
-div.intro h3{ text-align: center; color: #FFFFFF; background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_tt.png) center 0 no-repeat;  line-height: 44px;  overflow: hidden; font-size: 28px;margin:0; font-family: "Microsoft YaHei";  font-weight: normal; padding-bottom: 20px;}
-div.intro h4{ color: #FFFFFF; background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 0 no-repeat;  line-height: 53px; margin:10px 0;  overflow: hidden; font-size: 30px;padding:0px 0 0 56px; font-family: "microsoft yahei"; font-weight: normal;}
+div.intro h3{ text-align: center; color: #FFFFFF; background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_tt.png) center 0 no-repeat;  line-height: 44px;  overflow: hidden; font-size: 28px;margin:0; font-family: "Microsoft YaHei","MS PGothic";  font-weight: normal; padding-bottom: 20px;}
+div.intro h4{ color: #FFFFFF; background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 0 no-repeat;  line-height: 53px; margin:10px 0;  overflow: hidden; font-size: 30px;padding:0px 0 0 56px; font-family: "microsoft yahei","MS PGothic"; font-weight: normal;}
 div.intro h4.bg_blue{background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 -69px no-repeat; }
 div.intro h4.bg_green{background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 -140px no-repeat;  }
 div.intro h4.bg_purple{background: url(http://7xic0d.com1.z0.glb.clouddn.com/bg_jx.png) 0 -210px no-repeat; }
-div.intro li{ line-height: 30px; overflow: hidden; padding: 5px 0; font-size: 16px; font-family: "microsoft yahei";color:#333333  }
+div.intro li{ line-height: 30px; overflow: hidden; padding: 5px 0; font-size: 16px; font-family: "microsoft yahei","MS PGothic";color:#333333  }
 div.intro ul{ overflow: hidden; padding:10px 20px;}
-div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-family: "microsoft yahei";color:#333333  }
+div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-family: "microsoft yahei","MS PGothic";color:#333333  }
 
 
 .mb10{width:100%;}
@@ -158,4 +158,12 @@ div.f_share {
 background-color: #5db371;
 color: #fff;
 box-shadow: 0 2px 4px -2px #78c98a;
+}
+. input:focus,textarea:focus{border:1px solid #609ED2;}
+. .fs_input{width:82%;height:30px;}
+. .input{padding:5px;}
+. body, button, input, select, textarea {
+    word-wrap: break-word;
+    color: #000;
+    font: 12px/1 "MS PGothic","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 }
