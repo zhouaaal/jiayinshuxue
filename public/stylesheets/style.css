@@ -162,7 +162,6 @@ color: #fff;
 box-shadow: 0 2px 4px -2px #78c98a;
 }
 . input:focus,textarea:focus{border:1px solid #609ED2;}
-. .fs_input{width:82%;height:30px;}
 . .input{padding:5px;}
 . body, button, input, select, textarea {
     word-wrap: break-word;
