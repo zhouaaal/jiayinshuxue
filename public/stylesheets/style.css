@@ -62,7 +62,7 @@ div.intro p.text2{padding:15px 20px;line-height: 30px; font-size: 16px; font-fam
 .search .search_con .btn #searchBtn {background: none; color: #193FB2; font-family:"microsoft yahei"}
 
 .search .join_us{display: inline-block;padding:0 10px;float: right;line-height: 32px;border-radius: 15px;text-align: center;background-color: #ff4040;color: #fff;margin-right: 10px;}
-.fs_input { font-size: 14px;height: 18px;width: 82%;margin-top: 3px;line-height: 18px;border: 1px solid #D3D3D3;border-radius: 0;}
+.fs_input { font-size: 14px;height: 30px;width: 82%;margin-top: 3px;line-height: 18px;border: 1px solid #D3D3D3;border-radius: 0;}
 .fs_cTitle {
 	font-size: 16PX;
 	line-height: 25PX;
