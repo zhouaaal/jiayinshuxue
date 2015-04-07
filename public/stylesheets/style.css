@@ -155,6 +155,8 @@ div.f_share {
 	color: #78c98a
 }
 .fs_submitBtn {
+height:31px;
+width:70px;
 background-color: #5db371;
 color: #fff;
 box-shadow: 0 2px 4px -2px #78c98a;
