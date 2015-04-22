@@ -38,15 +38,17 @@ document.addEventListener('DOMContentLoaded', loaded, false);
 
 <div class="detail-list">
 	<div class="toptitle">
-    	<div class="shopclass">在日华人信息招聘数据列表</div>
+    	<div class="shopclass">佳音招聘数据列表</div>
     </div>
     <ul class="shoplist">
 		<% if (visitors){ %>
 		<%  visitors.forEach(function (visitor){ %>
 		<li>
-		  <p>姓名：&nbsp <%= visitor.get('name') %> </p>
+		  <p>姓名：&nbsp <%= visitor.get('parent') %> </p>
 		  <p>手机：&nbsp <%= visitor.get('phone') %> </p>
 		  <p>微信：&nbsp <%= visitor.get('weixin') %> </p>
+		  <p>お子さまの学年*：&nbsp <%= visitor.get('study') %> </p>
+		  お子さまの学年*
 		</li>
 		<% })
 		   } %>
