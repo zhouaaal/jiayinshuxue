@@ -32,7 +32,7 @@ function renderIndex(res, parent){
 		},
 		error: function(error){
 			console.log(error);
-			res.render('404',4041)
+			res.render('500',500)
 		}
 	});
 }
@@ -48,7 +48,7 @@ function renderQuery(res,parent,phone,weixin,study){
 		},
 		error: function(error){
 			console.log(error);
-			res.render('404',4042)
+			res.render('500',500)
 		}
 	});
 }
