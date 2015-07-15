@@ -16,19 +16,19 @@ app.use(avosExpressHttpsRedirect()); //启用HTTPS
 app.use(express.bodyParser());    // 读取请求body的中间件
 
 //使用express路由API服务/hello的http GET请求
-app.get('/hello', function(req, res) {
-	res.render('hello', { message: 'Congrats, you just set up your app!2015-07-15' });
-});
+//app.get('/hello', function(req, res) {
+//	res.render('hello', { message: 'Congrats, you just set up your app!2015-07-15' });
+//});
 
 var Visitor = AV.Object.extend('Visitor');
-function renderIndex(res, parent){
+function renderIndex(res, position){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ parent: parent, visitors: results});
+			res.render('index',{ position: position, visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -37,14 +37,14 @@ function renderIndex(res, parent){
 	});
 }
 
-function renderQuery(res,parent,phone,weixin,study){
+function renderQuery(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ parent: parent,phone:phone, weixin:weixin,study:study,visitors: results});
+			res.render('query',{ position: position,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail;jplevel:jplevel,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -53,57 +53,66 @@ function renderQuery(res,parent,phone,weixin,study){
 	});
 }
 
-function renderSuccess(res,parent,phone,weixin,study){
+function renderSuccess(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ parent: parent,phone:phone, weixin:weixin,study:study,visitors: results});
+			res.render('success',{ position: position,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail;jplevel:jplevel,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
-			res.render('404',4043)
+			res.render('500',500)
 		}
 	});
 }
 
 app.get('/query',function(req,res){
-	var parent=req.query.parent;
-	var phone=req.query.phone;
-	var weixin=req.query.weixin;
-	var study=req.query.study;
-	renderQuery(res,parent,phone,weixin,study);
+	var position=req.query.position;
+	var Pname=req.query.Pname;
+	var PAge=req.query.PAge;
+	var jobage=req.query.jobage;
+	var Ppone=req.query.Ppone;
+	var Pmail=req.query.Pmail;
+	var jplevel=req.query.jplevel;
+	renderQuery(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel);
 });
 
 app.get('/', function(req, res){
-	var parent = req.query.parent;
-	if(!parent)
-		parent = 'AVOS Cloud';
-	renderIndex(res, parent);
+	var position = req.query.position;
+	if(!position)
+		position = 'AVOS Cloud';
+	renderIndex(res, position);
 });
 
 
 app.post('/',function(req, res){
-	var parent = req.body.parent;
-	var phone=req.body.phone;
-	var weixin=req.body.weixin;
-	var study=req.body.study;
-	if(parent && parent.trim() !=''){
+	var position=req.query.position;
+	var Pname=req.query.Pname;
+	var PAge=req.query.PAge;
+	var jobage=req.query.jobage;
+	var Ppone=req.query.Ppone;
+	var Pmail=req.query.Pmail;
+	var jplevel=req.query.jplevel;
+	if(position && position.trim() !=''){
 		//Save visitor
 		var visitor = new Visitor();
-		visitor.set('parent', parent);
-		visitor.set('phone', phone);
-		visitor.set('weixin', weixin);
-		visitor.set('study', study);
+		visitor.set('position', position);
+		visitor.set('Pname', Pname);
+		visitor.set('PAge', PAge);
+		visitor.set('jobage', jobage);
+		visitor.set('Ppone', Ppone);
+		visitor.set('Pmail', Pmail);
+		visitor.set('jplevel', jplevel);
 	
 		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,parent,phone,weixin,study);
+				renderSuccess(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel);
 			},
 			error: function(gameScore, error) {
-				res.render('404', 4044);
+				res.render('500', 500);
 			}
 		});
 	}else{
