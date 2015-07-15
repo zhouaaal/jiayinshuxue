@@ -21,14 +21,14 @@ app.use(express.bodyParser());    // 读取请求body的中间件
 //});
 
 var Visitor = AV.Object.extend('Visitor');
-function renderIndex(res, position){
+function renderIndex(res, pposition){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('index',{ position: position, visitors: results});
+			res.render('index',{ pposition: pposition, visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -37,14 +37,14 @@ function renderIndex(res, position){
 	});
 }
 
-function renderQuery(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
+function renderQuery(res,pposition,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('query',{ position: position,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail,jplevel:jplevel,visitors: results});
+			res.render('query',{ pposition: pposition,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail,jplevel:jplevel,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -53,14 +53,14 @@ function renderQuery(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 	});
 }
 
-function renderSuccess(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
+function renderSuccess(res,pposition,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 	var query = new AV.Query(Visitor);
 	query.skip(0);
 	query.limit(10000);
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ position: position,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail,jplevel:jplevel,visitors: results});
+			res.render('success',{ pposition: pposition,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail,jplevel:jplevel,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
@@ -70,36 +70,36 @@ function renderSuccess(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 }
 
 app.get('/query',function(req,res){
-	var position=req.query.position;
+	var pposition=req.query.pposition;
 	var Pname=req.query.Pname;
 	var PAge=req.query.PAge;
 	var jobage=req.query.jobage;
 	var Ppone=req.query.Ppone;
 	var Pmail=req.query.Pmail;
 	var jplevel=req.query.jplevel;
-	renderQuery(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel);
+	renderQuery(res,pposition,Pname,PAge,jobage,Ppone,Pmail,jplevel);
 });
 
 app.get('/', function(req, res){
-	var position = req.query.position;
-	if(!position)
-		position = 'AVOS Cloud';
-	renderIndex(res, position);
+	var pposition = req.query.pposition;
+	if(!pposition)
+		pposition = 'AVOS Cloud';
+	renderIndex(res, pposition);
 });
 
 
 app.post('/',function(req, res){
-	var position=req.query.position;
+	var pposition=req.query.pposition;
 	var Pname=req.query.Pname;
 	var PAge=req.query.PAge;
 	var jobage=req.query.jobage;
 	var Ppone=req.query.Ppone;
 	var Pmail=req.query.Pmail;
 	var jplevel=req.query.jplevel;
-	if(position && position.trim() !=''){
+	if(pposition !='' && pposition.trim() !=''){
 		//Save visitor
 		var visitor = new Visitor();
-		visitor.set('position', position);
+		visitor.set('pposition', pposition);
 		visitor.set('Pname', Pname);
 		visitor.set('PAge', PAge);
 		visitor.set('jobage', jobage);
@@ -109,7 +109,7 @@ app.post('/',function(req, res){
 	
 		visitor.save(null, {
 			success: function(gameScore) {
-				renderSuccess(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel);
+				renderSuccess(res,pposition,Pname,PAge,jobage,Ppone,Pmail,jplevel);
 			},
 			error: function(gameScore, error) {
 				res.render('500', 500);
