@@ -60,7 +60,7 @@ function renderSuccess(res,position,Pname,PAge,jobage,Ppone,Pmail,jplevel){
 	query.descending('createdAt');
 	query.find({
 		success: function(results){
-			res.render('success',{ position: position,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail;jplevel:jplevel,visitors: results});
+			res.render('success',{ position: position,Pname:Pname, PAge:PAge,jobage:jobage,Ppone:Ppone,Pmail:Pmail,jplevel:jplevel,visitors: results});
 		},
 		error: function(error){
 			console.log(error);
