@@ -32,7 +32,7 @@ function renderIndex(res, parent){
 		},
 		error: function(error){
 			console.log(error);
-			res.render('4041',404)
+			res.render('404',4041)
 		}
 	});
 }
@@ -48,7 +48,7 @@ function renderQuery(res,parent,phone,weixin,study){
 		},
 		error: function(error){
 			console.log(error);
-			res.render('4042',404)
+			res.render('404',4042)
 		}
 	});
 }
@@ -64,7 +64,7 @@ function renderSuccess(res,parent,phone,weixin,study){
 		},
 		error: function(error){
 			console.log(error);
-			res.render('4043',404)
+			res.render('404',4043)
 		}
 	});
 }
@@ -103,7 +103,7 @@ app.post('/',function(req, res){
 				renderSuccess(res,parent,phone,weixin,study);
 			},
 			error: function(gameScore, error) {
-				res.render('4044', 404);
+				res.render('404', 4044);
 			}
 		});
 	}else{
