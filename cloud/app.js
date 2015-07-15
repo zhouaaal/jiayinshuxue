@@ -84,9 +84,6 @@ app.get('/', function(req, res){
 	renderIndex(res, parent);
 });
 
-app.get('/vote',function(req,res){
-			
-});
 
 app.post('/',function(req, res){
 	var parent = req.body.parent;
