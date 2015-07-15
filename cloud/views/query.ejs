@@ -44,10 +44,13 @@ document.addEventListener('DOMContentLoaded', loaded, false);
 		<% if (visitors){ %>
 		<%  visitors.forEach(function (visitor){ %>
 		<li>
-		  <p>姓名：&nbsp <%= visitor.get('parent') %> </p>
-		  <p>手机：&nbsp <%= visitor.get('phone') %> </p>
-		  <p>微信：&nbsp <%= visitor.get('weixin') %> </p>
-		  <p>お子さまの学年*：&nbsp <%= visitor.get('study') %> </p>
+		  <p>应征职位：&nbsp <%= visitor.get('position') %> </p>
+		  <p>姓名：&nbsp <%= visitor.get('Pname') %> </p>
+		  <p>年龄：&nbsp <%= visitor.get('PAge') %> </p>
+		  <p>JAVA工作经验：&nbsp <%= visitor.get('jobage') %> </p>
+		  <p>电话：&nbsp <%= visitor.get('Ppone') %> </p>
+		  <p>邮箱：&nbsp <%= visitor.get('Pmail') %> </p>
+		  <p>日语等级：&nbsp <%= visitor.get('jplevel') %> </p>
 		</li>
 		<% })
 		   } %>
