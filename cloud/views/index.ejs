@@ -22,17 +22,6 @@
       }
     }
 
-    //原创需求，需要跳转到中间页
-    /*
-    var copyrightInfo = {
-        display_source : ""*1,
-        nocopyrightsource : ""*1
-    };
-    if (!!copyrightInfo.display_source&&!copyrightInfo.nocopyrightsource){
-      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/reprint") == -1){
-        location.href = "http://mp.weixin.qq.com/mp/reprint?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
-      }
-    }*/
 </script>
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -65,7 +54,7 @@
 </script>
 
         <title>IT人才派遣招募</title>
-        
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 <link rel="stylesheet" type="text/css" href="stylesheets/page_mp_article_improve265a3d.css">
 <style>
         .rich_media_content{font-size:18px;}
@@ -127,7 +116,7 @@
                     <div class="rich_media_meta_list">
                         						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-07-13</em>
 
-                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">在日华人</a>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="http://mp.weixin.qq.com/s?__biz=MzAxMDI1MjczMA==&mid=203646259&idx=1&sn=39e22043abbe065f0966f4bd8783202a#rd" id="post-user">在日华人</a>
                         <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">在日华人</span>
 
                         <div id="js_profile_qrcode" class="profile_container" style="display:none;">
@@ -197,11 +186,11 @@
                 &nbsp;JAVA工程师（麹町）<br />
 </div>
 <div class="f_component" >
-                <p class="f_cTitle fs_cTitle">姓名</p>
+                <p class="f_cTitle fs_cTitle">姓名：</p>
                 <input type="text" name="Pname" id="Pname" class="input fs_input" value="">
               </div>
 <div class="f_component" >
-                <p class="f_cTitle fs_cTitle">年龄</p>
+                <p class="f_cTitle fs_cTitle">年龄：</p>
                 <input type="text" name="PAge" id="PAge" class="input fs_input" value="">
               </div>
 <div class="f_component" >
@@ -216,15 +205,15 @@
                 &nbsp;三年以上
 </div>
 <div class="f_component" >
-                <p class="f_cTitle fs_cTitle">电话</p>
+                <p class="f_cTitle fs_cTitle">电话：</p>
                 <input type="text" name="Ppone" id="Ppone" class="input fs_input" value="">
               </div>
 <div class="f_component" >
-                <p class="f_cTitle fs_cTitle">邮箱</p>
+                <p class="f_cTitle fs_cTitle">邮箱：</p>
                 <input type="text" name="Pmail" id="Pmail" class="input fs_input" value="">
               </div>
 <div class="f_component" >
-                <p class="f_cTitle fs_cTitle">日语等级</p>
+                <p class="f_cTitle fs_cTitle">日语等级：</p>
                 <input type='radio' name='jplevel' id='jplevel' value='一级' />
                 &nbsp;一级
                 <input type='radio' name='jplevel' id='jplevel' value='二级'  />
@@ -255,7 +244,7 @@
                                         
                     <div class="rich_media_tool" id="js_toobar">
 
-                                                <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>
+                                                <a class="media_tool_meta meta_primary" id="js_view_source" href="http://www.muchu-shop.com/?pid=72065768#rd&sukey=4093a841665b25f2e9e286ca06edf5f0f231e5bdb643903d84eba3c5a37f6e42a58f64d527fb0f2a823a93a1f06576ce">阅读原文</a>
                                                 <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">Pageview <span id="readNum"></span></div>
 
                         <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">
@@ -335,146 +324,7 @@
         </span>
     </script>
 
-    <script id="t_cmt" type="text/html">
-        <li class="discuss_item" id="cid<# if (is_from_me == 1) { #><#=my_id#><# } else { #><#=content_id#><# } #>">
-            <# if(is_elected == 1){ #>
-            <div class="discuss_opr">
-                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
-                    <i class="icon_praise_gray"></i>
-                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
-                </span>
-            </div>
-            <# } #>
-            <div class="user_info">
-                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
-                <img class="avatar" src="<#=logo_url#>">
-            </div>
-            <div class="discuss_message">
-                <span class="discuss_status"><#=status#></span>
-                <#=content#>
-            </div>
-            <p class="discuss_extra_info">
-                <#=time#>               
-                <# if (is_from_me == 1) { #>
-                <a class="discuss_del js_del" href="javascript:;" data-my-id="<#=my_id#>" data-content-id="<#=content_id#>">删除</a>
-                <# } #>
-            </p>
-            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
-                <div class="reply_result">
-                    <div class="nickname">作者回复</div>
-                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
-                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
-                </div>
-            <# } #>
-                
-        </li>
-    </script>
 
-  <script id="t_ad" type="text/html">
-    <div class="rich_media_extra" id="gdt_area">
-        <# if(pos_type==0){ #>
-        <div class="rich_tips with_line title_tips">
-            <span class="tips">Promotion</span>
-        </div>
-        <# } #>
-        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
-            <# if(pt==1){ #>
-            <#=hint_txt#>
-            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/common/icon_arrow_gray1f0949.png">
-            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/common/icon_loading_white22c04a.gif">
-            <# }else if(pt==2){ #>
-            
-            <# if (logo.indexOf("http://mmsns.qpic.cn/") == 0){ #>
-            <div class="brand_logo"><img src="<#=logo#>" alt="logo图片"></div>
-            <# } #>
-            <img class="appmsg_banner" src="<#=image_url#>">
-            <# if(watermark_type!=0){ #><i class="promotion_tag"><# if(watermark_type==1){ #>商品推广<# }else if (watermark_type==2){ #>活动推广<# } #></i><# } #>
-            <# }else if(pt==7){ #>
-            
-            <div class="preview_group preview_card">
-                <div class="preview_group_inner card_inner">
-                    <div class="preview_group_info">
-                        <strong class="preview_group_title2"><#=hint_txt#></strong>
-                        <div class="preview_group_desc"><#=ad_desc#></div>
-                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
-                    </div>
-                </div>
-            </div>
-            <# }else if(pt==100){ #>
-            <div class="preview_group">
-                <div class="preview_group_inner">
-                    <div class="preview_group_info append_btn">
-                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
-                        <div class="preview_group_desc"><#=hint_txt#></div>
-                        <# if(!!biz_info.head_img){ #>
-                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
-                        <# }else{ #>
-                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
-                        <# } #>                                 
-                    </div>
-                    <div class="preview_group_opr">
-                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
-                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
-                    </div>
-                </div>
-            </div>
-            <# }else if(pt==102){ #>
-            <div class="preview_group">
-                <div class="preview_group_inner">
-                    <div class="preview_group_info append_btn">
-                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
-                        <div class="preview_group_desc"><#=hint_txt#></div>
-                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
-                    </div>
-                    <div class="preview_group_opr">
-                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
-                    </div>
-                </div>
-            </div>
-            <# }else if(pt==101){ #>
-            <div class="preview_group preview_card">
-                <div class="preview_group_inner card_inner">                            
-                    <div class="preview_group_info append_btn">
-                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
-                        <div class="preview_group_desc"><#=hint_txt#></div>
-                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
-                    </div>
-                    <div class="preview_group_opr">
-                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
-                    </div>
-                </div>                        
-            </div>
-            <# }else if(pt==103||pt==104){ #>
-            <div class="preview_group obvious_app">
-                <div class="preview_group_inner">
-                    <div class="pic_app">
-                        <img src="<#=image_url#>" alt="">
-                    </div>
-                    <div class="info_app">
-                        <p class="name_app"><#=app_info.app_name#></p>
-                        <# if(pt==103){ #>
-                        <p class="profile_app" style="display:none;"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
-                        <# } else if(pt==104){ #>
-                        <p class="profile_app" style="display:none;"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
-                        <# } #>
-                        
-                        <p class="grade_app" id="js_app_rating_<#=pos_type#>">
-                            
-                            <span class="js_stars stars" style="display:none;"></span>
-                            
-                            <span class="js_scores scores">暂无评分</span>
-                        </p>
-                        <div class="dm_app">
-                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
-                            <p class="extra_info">来自<# if(pt==103){ #>App Store<# }else{ #>腾讯应用宝<# } #></p>
-                        </div>
-                    </div>
-                </div>            
-            </div>
-            <# } #>
-        </div>
-    </div>
-  </script>
   <script type="text/javascript">
       var not_in_mm_css = "stylesheets/not_in_mm2637b1.css";
       var windowwx_css = "stylesheets/page_mp_article_improve_pc2637b1.css";
@@ -494,7 +344,7 @@
       var version   = "";
       var is_limit_user   = "0";
       var msg_title = "IT人才派遣招募";
-      var msg_desc = "你想要加什么你说我来改换下";
+      var msg_desc = "你想要加什么你说我来换下";
       var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/9Q8Qgltx02JrCpzAOhUrJyaU8kZxDu7f76xUBSH02rSvuFoUmPIx26AQ8icgWOALr3oevlPWEqqVmWEIOJB9iaRg/0?wx_fmt=jpeg";
       var msg_link = "http://mp.weixin.qq.com/s?__biz=MzAxMDI1MjczMA==&amp;mid=207607343&amp;idx=1&amp;sn=fb8a7894811bc3c4208514e512c5f7ed#rd";
       var user_uin = "0"*1;
